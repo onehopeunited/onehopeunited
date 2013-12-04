@@ -1,0 +1,198 @@
+@charset "utf-8";
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+.topBar { 
+	font: 70% Verdana, Arial, Helvetica, sans-serif;
+	background-color:#000;
+	padding:0;
+	margin:0 0 2px 0;
+}
+.topBar ul { 
+	padding:8px 0;
+	margin:0;
+}
+.topBar li { 
+	padding: 0 10px 0 0;
+	margin:0;
+	list-style-type:none; 
+	display: inline;
+}
+.topBar a:link, .topBar a:visited {
+	color:#fff;
+	text-decoration: none;
+}
+.topBar a:hover {
+	color:#fff;
+	text-decoration: underline;
+}
+
+.twoColFixLtHdr #container { 
+	width: 800px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background-color: #FFFFFF;
+	background-image:url(../images/footer.gif);
+	background-position: bottom;
+	background-repeat:no-repeat;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	font: 80%/130% Verdana, Arial, Helvetica, sans-serif;
+	border-left: solid 1px #CCCCCC;
+	border-right: solid 1px #CCCCCC;
+} 
+
+.twoColFixLtHdr #header { 
+	padding: 0;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.twoColFixLtHdr #header img {
+	width: 800px;
+	height: 329px;
+	padding: 0;
+	margin: 0;
+} 
+
+.twoColFixLtHdr #sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 180px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	padding: 0 30px;
+	margin:0;
+	border-right: solid 1px #CCCCCC;
+}
+.twoColFixLtHdr #sidebar1 h1 {
+	color: #999;
+	margin:0;
+	padding:0;
+	font: 1.5em Arial, Helvetica, sans-serif;
+	line-height: 100%;
+	font-weight:normal;
+}
+.twoColFixLtHdr #sidebar1 p {
+	margin:0;
+	padding:10px 0;
+}
+.twoColFixLtHdr #sidebar1 ul {
+	margin:0 0 0 15px;
+	padding:10px 0;
+}
+.twoColFixLtHdr #sidebar1 li {
+	margin:0;
+	padding:0 0 5px 0;
+}
+.twoColFixLtHdr #sidebar1 a:link {
+	color:#3399cc;
+}
+.twoColFixLtHdr #sidebar1 a:hover {
+	color:#006699;
+}
+/*** Follow Us ***/
+ul.followUs {
+	margin: 10px 0 0 0;
+	padding:0;
+	list-style-type: none;
+}
+ul.followUs li {
+	margin: 0;
+	padding:0 5px 0 0;
+	float:left;
+	display: inline;
+}
+.followUs img {
+	width: 55px; 
+	height: 65px;
+	border:none;
+}
+.followUs a, .followUs a:visited { 
+	border:none;
+}
+.followUs a:hover {
+	border:none;
+}
+
+.twoColFixLtHdr #mainContent { 
+	margin: 0 0 0 260px; /* the left margin on this div element creates the column down the left side of the page - no matter how much content the sidebar1 div contains, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends. */
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+} 
+.twoColFixLtHdr #mainContent h1 {
+	color: #999;
+	margin:0;
+	padding:0;
+	font: 2.2em Arial, Helvetica, sans-serif;
+	line-height: 100%;
+	font-weight:normal;
+}
+.twoColFixLtHdr #mainContent h2 {
+	font: 1.4em Times New Roman, Times, serif; 
+	line-height:20px; 
+	padding:0; 
+	margin:15px 0 0 0; 
+	color:#3399CC;
+	text-align:left;
+	font-weight: bold;
+}
+.twoColFixLtHdr #mainContent h3 {
+	font: 1.2em Arial, Helvetica, sans-serif;
+	line-height:20px; 
+	padding:0; 
+	margin:25px 0 0 0; 
+	color: #000;
+	text-align:left;
+	font-weight: normal;
+}
+.twoColFixLtHdr #mainContent p {
+	margin:0;
+	padding:10px 0;
+}
+.twoColFixLtHdr #mainContent ul {
+	margin:0 0 0 15px;
+	padding:10px 0;
+}
+.twoColFixLtHdr #mainContent ul li {
+	margin:0;
+	padding:0 0 5px 0;
+}
+.twoColFixLtHdr #mainContent a:link {
+	color:#3399cc;
+}
+.twoColFixLtHdr #mainContent a:hover {
+	color:#006699;
+}
+
+
+.twoColFixLtHdr .footer { 
+	font: 70% Verdana, Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	text-align: center;
+	color:#fff;
+}
+.twoColFixLtHdr .footer p { 
+	padding:0 0 15px 0;
+	margin:0;
+}
+.twoColFixLtHdr .footer a:link, .twoColFixLtHdr .footer a:visited {
+	color:#fff;
+	text-decoration: none;
+}
+.twoColFixLtHdr .footer a:hover {
+	color:#fff;
+	text-decoration: underline;
+}
+
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}

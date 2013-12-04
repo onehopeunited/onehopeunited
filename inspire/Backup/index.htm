@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>One Hope United | Educate. Nourish. Empower. Inspire!</title>
+<link href="css/twoColFixRtHdr.css" rel="stylesheet" type="text/css" />
+<link href="css/flipNav.css" rel="stylesheet" type="text/css" media="screen"/>
+
+<!--[if lte IE 6]>
+     <link rel="stylesheet" href="css/styleIE6.css" type="text/css" media="screen"/>
+<![endif]-->
+
+<!--[if IE 5]>
+<style type="text/css"> 
+/* place css box model fixes for IE 5* in this conditional comment */
+.twoColFixRtHdr #sidebar1 { width: 220px; }
+</style>
+<![endif]--><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColFixRtHdr #sidebar1 { padding-top: 30px; }
+.twoColFixRtHdr #mainContent { zoom: 1; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+
+<body class="twoColFixRtHdr">
+
+<!--
+<div id="topBanner">
+
+	<ul>
+    	<li>Visit <a href="https://www.onehopeunited.org" title="www.onehopeunited.org" target="_blank">www.onehopeunited.org</a></li>
+    </ul>
+    
+</div>
+-->
+
+<div id="blueBar">
+<!-- begin #blueBar -->
+
+<div id="container">
+<!-- begin #container -->
+    
+    <div id="header">
+    <!-- begin #header -->
+    
+        <ul class="ribbonMenu">
+            
+            <li><a id="subscribe" class="subscribe" href="https://www.onehopeunited.org/contact_us/mailingList2.php" 
+            title="Subscribe to Our Newsletter" target="_blank"><span class="displace">Subscribe to Our Newsletter</span></a></li>
+
+            <li><a id="donateNow" class="donateNow" href="https://donate.onehopeunited.org/inspire" title="Donate Now!" 
+            target="_blank"><span class="displace">Donate Now!</span></a></li>
+
+
+        </ul>
+        	        
+        <div id="logo">
+            <a href="https://www.onehopeunited.org/" title="One Hope United Home" target="_blank">
+                <img src="images/OHU-header-logo.png" alt="One Hope United Home" width="244" height="104" border="0" />
+            </a>
+        </div>
+                
+    <!-- end #header -->
+    </div>
+  
+
+    <!-- Slider Menu -->
+    <div id="menuWrapper" class="menuWrapper bg1">
+        <ul class="menu" id="menu">
+            <li class="first bg1" style="background-position:0 0;">
+                <a id="bg1" href="#">Educate</a>
+                <ul class="sub1" style="background-position:0 0;">
+                    <li>From early learning centers to after-school mentoring programs, 
+                    from teen parent education to adult parenting groups, OHU strives to educate each and every member of all types 
+                    of families to lead flourishing lives. More than 2,000 children currently attend our high-quality child development 
+                    programs throughout the Chicago area.</li>
+                </ul>
+            </li>
+            <li class="bg1" style="background-position:-300px 0px;">
+                <a id="bg2" href="#">Nourish</a>
+                <ul class="sub2" style="background-position:-300px 0;">
+                    <li>Our agency utilizes the 6 protective factors of the <a href="http://www.strengtheningfamiliesillinois.org" 
+                    title="Strengthening Families Illinois" target="_blank">Strengthening Families Illinois</a> initiative to 
+                    ensure families in every program learn to provide safe and nurturing homes for their children. More than 90% 
+                    of OHU foster children who were reunited with their families remained safely at home without re-entry into 
+                    the system.*</li>
+                </ul>
+            </li>
+            <li class="bg1" style="background-position:-600px 0px;">
+                <a id="bg3" href="#">Empower</a>
+                <ul class="sub3" style="background-position:-300px 0;">
+                    <li>The ultimate goal of One Hope United is to give children and families all the tools they need to 
+                    lead healthy, prosperous productive lives. 97% of teens served through several of our Youth Services 
+                    programs remained in school, in training or employed last year with the help of our dedicated staff members.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- The JavaScript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bgpos.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            /* position of the <li> that is currently shown */
+            var current = 0;
+            
+            var loaded  = 0;
+            for(var i = 1; i <4; ++i)
+                $('<img />').load(function(){
+                    ++loaded;
+                    if(loaded == 3){
+                        $('#bg1,#bg2,#bg3').mouseover(function(e){
+                            
+                            var $this = $(this);
+                            /* if we hover the current one, then don't do anything */
+                            if($this.parent().index() == current)
+                                return;
+
+                            /* item is bg1 or bg2 or bg3, depending where we are hovering */
+                            var item = e.target.id;
+
+                            /*
+                            this is the sub menu overlay. Let's hide the current one
+                            if we hover the first <li> or if we come from the last one,
+                            then the overlay should move left -> right,
+                            otherwise right->left
+                             */
+                            if(item == 'bg1' || current == 2)
+                                $('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(-300px 0)"},300,function(){
+                                    $(this).find('li').hide();
+                                });
+                            else
+                                $('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(300px 0)"},300,function(){
+                                    $(this).find('li').hide();
+                                });
+
+                            if(item == 'bg1' || current == 2){
+                                /* if we hover the first <li> or if we come from the last one, then the images should move left -> right */
+                                $('#menu > li').animate({backgroundPosition:"(-900px 0)"},0).removeClass('bg1 bg2 bg3').addClass(item);
+                                move(1,item);
+                            }
+                            else{
+                                /* if we hover the first <li> or if we come from the last one, then the images should move right -> left */
+                                $('#menu > li').animate({backgroundPosition:"(900px 0)"},0).removeClass('bg1 bg2 bg3').addClass(item);
+                                move(0,item);
+                            }
+
+                            /*
+                            We want that if we go from the first one to the last one (without hovering the middle one),
+                            or from the last one to the first one, the middle menu's overlay should also slide, either
+                            from left to right or right to left.
+                             */
+                            if(current == 2 && item == 'bg1'){
+                                $('#menu .sub'+parseInt(current)).stop().animate({backgroundPosition:"(-300px 0)"},300);
+                            }
+                            if(current == 0 && item == 'bg3'){
+                                $('#menu .sub'+parseInt(current+2)).stop().animate({backgroundPosition:"(300px 0)"},300);
+                            }
+
+                            
+                            /* change the current element */
+                            current = $this.parent().index();
+                            
+                            /* let's make the overlay of the current one appear */
+                           
+                            $('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(0 0)"},300,function(){
+                                $(this).find('li').fadeIn();
+                            });
+                        });
+                    }	
+                }).attr('src', 'images/'+i+'.jpg');
+            
+                        
+            /*
+            dir:1 - move left->right
+            dir:0 - move right->left
+             */
+            function move(dir,item){
+                if(dir){
+                    $('#bg1').parent().stop().animate({backgroundPosition:"(0 0)"},200);
+                    $('#bg2').parent().stop().animate({backgroundPosition:"(-300px 0)"},300);
+                    $('#bg3').parent().stop().animate({backgroundPosition:"(-600px 0)"},400,function(){
+                        $('#menuWrapper').removeClass('bg1 bg2 bg3').addClass(item);
+                    });
+                }
+                else{
+                    $('#bg1').parent().stop().animate({backgroundPosition:"(0 0)"},400,function(){
+                        $('#menuWrapper').removeClass('bg1 bg2 bg3').addClass(item);
+                    });
+                    $('#bg2').parent().stop().animate({backgroundPosition:"(-300px 0)"},300);
+                    $('#bg3').parent().stop().animate({backgroundPosition:"(-600px 0)"},200);
+                }
+            }
+        });
+    </script>
+    <!-- Slider Menu -->
+    
+        
+    <div id="sidebar1">
+    <!-- begin #sidebar1 -->
+    
+        <ul class="followUs">
+            
+            <li><a id="youtube" class="youtube" href="http://www.youtube.com/1hopeunited" title="Watch us on YouTube" target="_blank"><span 
+            class="displace">Watch us on YouTube</span></a></li>
+
+            <li><a id="twitter" class="twitter" href="http://twitter.com/#!/1hopeunited" title="Follow us on Twitter" target="_blank"><span 
+            class="displace">Follow us on Twitter</span></a></li>
+
+            <li><a id="facebook" class="facebook" href="https://www.facebook.com/1hopeunited" title="Like us on Facebook" target="_blank"><span 
+            class="displace">Like us on Facebook</span></a></li>
+
+        </ul>
+
+        <h3>Updates</h3>
+        
+        <a class="video" href="" target="_blank" title="Video 1"><img 
+        src="images/video-still-01.jpg" width="230" height="140" alt="Video" border="0" /></a>
+
+        <h4>What inspires you?</h4>
+		<span class="date">Oct. 23, 2011</span>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing dolor sit amet, consectetur adipiscing. Lorem ipsum dolor sit amet.  
+        <a href="">Read more</a></p>
+        
+		<hr class="divider" />
+
+        <a class="video" href="" target="_blank" title="Video 1"><img 
+        src="images/video-still-02.jpg" width="230" height="140" alt="Video" border="0" /></a>
+
+        <h4>What our promises mean</h4>
+		<span class="date">Oct. 21, 2011</span>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing dolor sit amet, consectetur adipiscing. Lorem ipsum dolor sit amet. 
+        <a href="">Read more</a>.</p>
+   
+
+    <!-- end #sidebar1 -->
+    </div>
+  
+    <div id="mainContent">
+    <!-- begin #mainContent -->
+    
+        <h1>About One Hope United</h1>
+        
+        <p>One Hope United is a nonprofit human service agency and early education provider that serves thousands of 
+        children and families throughout the Chicago area. Our goal is to educate, nourish and empower all those we 
+        come in contact with so that they can lead healthy and flourishing lives. We do this through a combination 
+        of prevention and intervention programs that vary based on the needs of each individual community. </p>
+        
+        <h2>What makes One Hope United exceptional?</h2>
+        
+		<p><span class="bodyBold">Innovation:</span> All children deserve the opportunity to learn and grow in a safe and nurturing home, so we 
+        strive to bring new approaches in service delivery to address the challenges of today’s families. </p>
+
+		<p><span class="bodyBold">Collaboration:</span> We work with families and collaborate with our community partners, working toward a common 
+        vision of safe and nurturing homes for all children.</p>
+
+		<p><span class="bodyBold">Results:</span> We are committed to helping staff at all levels set clear goals and report measurable outcomes. 
+        This level of transparency and internal honesty keeps our focus on ensuring the safety, permanency and 
+        well-being of children in our care.</p>
+
+		<p><span class="bodyBold">Hope:</span> We believe in the potential of every child, family and community. Perhaps the most important promise 
+        we can offer is the hope of a better future.</p>
+
+		<p><span class="bodyBold">Leadership:</span> Our staff brings passion, commitment and expertise to the human services field. We believe all 
+        of our team members have the potential and opportunity to be leaders—in the classroom, with families and in 
+        developing new or better practices.</p>
+        
+        <p><span class="footnote">* Measured after 6 months. References foster children served in FY11.</span></p>
+    
+    <!-- end #mainContent -->
+    </div>
+    <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats -->
+    <br class="clearfloat" />
+  
+<!-- end #container -->
+</div>
+
+<!-- end #blueBar -->
+</div>
+
+<div id="footerBar">
+<!-- begin #footerBar -->
+
+    <div id="footer">
+    <!-- begin #footer -->
+    
+        <p>&copy; <a href="https://www.onehopeunited.org" title="One Hope United" 
+        target="_blank">One Hope United</a></p>
+        
+    <!-- end #footer -->
+    </div>
+  
+<!-- end #footerBar -->
+</div>
+
+<!-- begin Google Analytics Code -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26633634-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- end Google Analytics Code -->
+
+</body>
+</html>

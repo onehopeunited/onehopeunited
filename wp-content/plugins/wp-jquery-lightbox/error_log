@@ -1,0 +1,5 @@
+[26-May-2013 16:37:44] PHP Fatal error:  Call to undefined function  add_action() in /home/newohu/public_html/wp-content/plugins/wp-jquery-lightbox/wp-jquery-lightbox.php on line 11
+[21-Jun-2013 16:26:32] PHP Fatal error:  Call to undefined function  add_action() in /home/newohu/public_html/wp-content/plugins/wp-jquery-lightbox/wp-jquery-lightbox.php on line 11
+[09-Jul-2013 11:35:21] PHP Fatal error:  Call to undefined function  add_action() in /home/newohu/public_html/wp-content/plugins/wp-jquery-lightbox/wp-jquery-lightbox.php on line 11
+[28-Jul-2013 12:17:40] PHP Fatal error:  Call to undefined function  add_action() in /home/newohu/public_html/wp-content/plugins/wp-jquery-lightbox/wp-jquery-lightbox.php on line 11
+[23-Sep-2013 12:45:18] PHP Fatal error:  Call to undefined function  add_action() in /home/newohu/public_html/wp-content/plugins/wp-jquery-lightbox/wp-jquery-lightbox.php on line 11

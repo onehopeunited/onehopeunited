@@ -1,0 +1,289 @@
+@charset "utf-8";
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif; 
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #EBEBEB;
+	background-repeat: repeat;	
+}
+
+/*
+.twoColFixRtHdr #blueBar {
+    background-image: url(../images/blue-bkgd.jpg);
+	background-position: 0 150px;
+    background-repeat: repeat-x;
+}
+*/
+
+.twoColFixRtHdr #topBanner {
+	background-color:#126995;
+	padding: 0;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	height: 30px;
+	font: 75% Verdana, Arial, Helvetica, sans-serif; 
+	line-height: 100%;
+	color: #FFFFFF;
+}
+.twoColFixRtHdr #topBanner ul {
+	padding:0;
+	margin:0;
+	display:block;
+	list-style-type:none;
+}
+.twoColFixRtHdr #topBanner ul li {
+	padding:10px 0 0 0;
+	margin:0;
+}
+#topBanner a, #topBanner a:visited { 
+	color:#FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+#topBanner a:hover { 
+	color:#FFFFFF;
+	font-weight: bold;
+	text-decoration:underline;
+}
+
+.twoColFixRtHdr #container { 
+	width: 901px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColFixRtHdr #header { 
+	padding: 0;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	margin: 0;
+	height: 130px;
+	background:url(../images/Inspire.png) no-repeat bottom right;
+} 
+.twoColFixRtHdr #header #logo a {
+	display:block;
+	width: 180px;
+	height: 77px;
+	background: url(../images/OHU-header-logo.png) no-repeat left top;
+	margin: 20px 0 0 0;
+	padding:0;
+	float:left;
+}
+ul.ribbonMenu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.ribbonMenu li {
+	margin: 0 0 0 5px;
+	padding:0;
+	float: right;
+}
+a:link.donateNow, a:visited.donateNow {
+	background-image:url(../images/Ribbon-Donate-Now.png);
+	width: 133px; 
+	height: 103px;
+	display: block;
+	text-decoration: none;
+	background-position: left -37px;
+	background-repeat: no-repeat;
+}
+a:hover.donateNow {
+	background-position: bottom;
+}
+a:link.subscribe, a:visited.subscribe {
+	background-image:url(../images/Ribbon-Subscribe.png);
+	width: 133px; 
+	height: 103px;
+	display: block;
+	text-decoration: none;
+	background-position: left -37px;
+	background-repeat: no-repeat;
+}
+a:hover.subscribe {
+	background-position: bottom;
+}
+
+.displace {
+	position: absolute;
+	left: -5000px;
+}
+
+
+.twoColFixRtHdr #slider {
+	margin:0;
+	padding:0;
+}
+
+
+a, a:visited {
+	color:#3399cc;
+	text-decoration: none;
+}
+a:hover {
+	color:#166d99;
+	text-decoration: underline;
+}
+
+.twoColFixRtHdr #mainContent { 
+	margin: 0 280px 0 0; /* the right margin on this div element creates the column down the right side of the page - no matter how much content the sidebar1 div contains, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends. */
+	padding: 20px 30px 10px 0; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+} 
+.twoColFixRtHdr #mainContent h1 {
+	font: 180%/120% Georgia, "Times New Roman", Times, serif;
+	color: #126995;
+	margin:0;
+	padding:0;
+} 
+.twoColFixRtHdr #mainContent h2 {
+	font: 130%/120% Georgia, "Times New Roman", Times, serif;
+	color: #126995;
+	margin:0;
+	padding:15px 0 10px 0;
+} 
+.twoColFixRtHdr #mainContent p {
+	font: 80%/140% Verdana, Arial, Helvetica, sans-serif; 
+	margin: 0;
+	padding:10px 0;
+} 
+.bodyBold {
+	font: 120%/140% Georgia, "Times New Roman", Times, serif;
+	font-weight: bold; 
+}
+.footnote {
+	font: 85%/140% Georgia, "Times New Roman", Times, serif; 
+	font-style:italic;
+}
+
+.twoColFixRtHdr #sidebar1 {
+	float: right; /* since this element is floated, a width must be given */
+	width: 240px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	padding: 20px 0 10px 20px;
+	margin:0;
+}
+.twoColFixRtHdr #sidebar1 h3 {
+	font: 130%/120% Georgia, "Times New Roman", Times, serif;
+	color: #126995;
+	margin:0;
+	padding:10px 0;
+} 
+.twoColFixRtHdr #sidebar1 h4 {
+	font: 100%/120% Georgia, "Times New Roman", Times, serif;
+	color: #666666;
+	margin:0;
+	padding:10px 0 0 0;
+} 
+.twoColFixRtHdr #sidebar1 p {
+	font: 80%/140% Verdana, Arial, Helvetica, sans-serif; 
+	margin: 0;
+	padding:10px 0;
+} 
+.twoColFixRtHdr #sidebar1 ul {
+	font: 80%/140% Verdana, Arial, Helvetica, sans-serif; 
+	margin: 0 0 0 20px;
+	padding:0 0 10px 0;
+} 
+.date {
+	font: 70%/140% Verdana, Arial, Helvetica, sans-serif; 
+	font-style: italic;
+	margin:0;
+	padding:0;
+}
+a.video, a.video:visited { 
+	padding:0;
+	margin:0;
+	border:solid 1px #000;
+	display:block; 
+	width: 230px;
+	height: 140px;
+}
+a.video:hover { 
+	border:solid 1px #ff333;
+}
+
+.divider { 
+    margin: 10px 0 20px 0;
+    height: 1px;
+    border: 0;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #333333));
+}
+.divider2 { 
+    margin: 0 0 10px 0;
+    height: 1px;
+    border: 0;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #333333));
+}
+
+ul.followUs {
+	margin: 0 0 0 10px;
+	padding: 0;
+	list-style-type: none;
+}
+ul.followUs li {
+	margin: 0 0 10px 5px;
+	padding:0;
+	float:right;
+	width: 46px; 
+	height: 45px;
+}
+a:link.facebook, a:visited.facebook {
+	background-image:url(../images/icon-facebook.png);
+	width: 46px; 
+	height: 45px;
+	display: block;
+	text-decoration: none;
+}
+a:hover.facebook {
+	background-position: bottom;
+}
+a:link.twitter, a:visited.twitter {
+	background-image:url(../images/icon-twitter.png);
+	width: 46px; 
+	height: 45px;
+	display: block;
+	text-decoration: none;
+}
+a:hover.twitter {
+	background-position: bottom;
+}
+a:link.youtube, a:visited.youtube {
+	background-image:url(../images/icon-youtube.png);
+	width: 46px; 
+	height: 45px;
+	display: block;
+	text-decoration: none;
+}
+a:hover.youtube {
+	background-position: bottom;
+}
+
+
+.twoColFixRtHdr #footer { 
+	width: 900px;
+	font: 75%/140% Verdana, Arial, Helvetica, sans-serif; 
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	padding: 10px 0 20px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	color:#126995;
+} 
+.twoColFixRtHdr #footer a, .twoColFixRtHdr #footer a:visited { 
+	color:#126995;
+	text-decoration: underline;
+}
+.twoColFixRtHdr #footer a:hover { 
+	color:#03334b;
+}
+
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 0px;
+    line-height: 0px;
+}
