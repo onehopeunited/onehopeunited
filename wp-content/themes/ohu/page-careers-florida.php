@@ -81,7 +81,7 @@ get_header(); ?>
                         FROM wp_posts, wp_postmeta
                         WHERE wp_posts.ID = wp_postmeta.post_id
                         AND wp_postmeta.meta_key = 'job-region'
-                        AND wp_postmeta.meta_value = 'Northern'
+                        AND wp_postmeta.meta_value = 'Florida'
                         AND wp_posts.post_status = 'publish'
                         AND wp_posts.post_type = 'job_listings')
                     ORDER BY wp_postmeta.meta_value ASC;", OBJECT);
