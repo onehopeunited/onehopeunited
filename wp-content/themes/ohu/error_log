@@ -54,3 +54,7 @@
 [13-Nov-2013 17:56:18] PHP Fatal error:  Call to undefined function  get_header() in /home/newohu/public_html/wp-content/themes/ohu/index.php on line 15
 [20-Nov-2013 23:38:48] PHP Fatal error:  Call to undefined function  get_header() in /home/newohu/public_html/wp-content/themes/ohu/index.php on line 15
 [03-Dec-2013 15:35:10] PHP Fatal error:  Call to undefined function  get_header() in /home/newohu/public_html/wp-content/themes/ohu/index.php on line 15
+[05-Dec-2013 15:16:16] PHP Fatal error:  Call to undefined function  get_header() in /home/newohu/public_html/wp-content/themes/ohu/index.php on line 15
+[03-Jan-2014 13:02:52] PHP Fatal error:  Call to undefined function  get_header() in /home/newohu/public_html/wp-content/themes/ohu/index.php on line 15
+[06-Jan-2014 15:44:59] PHP Fatal error:  Call to undefined function  get_header() in /home/newohu/public_html/wp-content/themes/ohu/index.php on line 15
+[09-Jan-2014 14:26:06] PHP Fatal error:  Call to undefined function  get_header() in /home/newohu/public_html/wp-content/themes/ohu/index.php on line 15

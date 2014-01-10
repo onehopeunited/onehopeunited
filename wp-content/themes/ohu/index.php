@@ -26,7 +26,7 @@ $post_id = 29;
 $queried_post = get_post($post_id);
 ?>
 
-<a href="http://onehopeunited.org/holiday/"><img src="<?php echo get_post_meta($queried_post->ID, 'thumbnail', true) ?>" style="float:left;"></a>
+<a href="https://donate.onehopeunited.org/sslpage.aspx?pid=298"><img src="<?php echo get_post_meta($queried_post->ID, 'thumbnail', true) ?>" style="float:left;"></a>
 <div style="padding:20px;width:420px;float:right;">
 <?php echo $queried_post->post_content; ?>
 </div>
