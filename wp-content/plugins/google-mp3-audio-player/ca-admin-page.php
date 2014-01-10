@@ -62,6 +62,7 @@
 	.ca-options-description {
 		margin: 5px 0 5px 0;
 	}
+	
 </style>
 
 <div class="ca-google-mp3-audio-player">

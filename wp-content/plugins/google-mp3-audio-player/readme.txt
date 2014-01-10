@@ -1,38 +1,60 @@
 === CodeArt - Google MP3 Player ===
-Contributors: codeart, SkyDriver
+Contributors: codeart, SkyDriver, dimisko
 Tags: plugin, mp3, audio, google, media, player
 Requires at least: 3.0
-Tested up to: 3.4
-Stable tag: 2.5.3
+Tested up to: 3.5
+Stable tag: 3.0.0
 License: GPLv2 or later
 
 Embedding MP3 audio files using Google MP3 Audio Player.
 
 == Description ==
 
-The plugin 'CodeArt - Google MP3 Audio Player (for WordPress)' will allow you to embed mp3 audio files in a player where you want on the post(s), page(s) and/or sidebar(s).
+The CodeArt - Google MP3 Player plugin allows you to easily embed any mp3 file in your wordpress website.
+You can put the player in any post, page or widget area.
 
-- HTML5 support for iPhone (in version 1.0.8)
+- Added HTML 5 version for all browsers now, in case the browser doesnt support HTML it will fall back to the default flash player (in version 1.0.9)
+- Added HTML5 support for iPhone (in version 1.0.8)
 
-First of all, you need to upload/host your mp3 audio file which you want to embed in the posts.
-You can do this via Media Library (from WordPress) or another file hosting.
-After uploading your mp3 audio file you need to copy the full URL path of the uploaded mp3 file and to put in the post where you want to be displayed in this format:
-`
-[ca_audio url="URL" width="WIDTH" height="HEIGHT" css_class="CSS_CLASS"]
-`
-The shortcode shoult looks like this:
-`
-[ca_audio url="http://www.example.com/path/to/mp3/file/audio_file.mp3" width="500" height="27" css_class="codeart-google-mp3-player" autoplay="true"]
-`
-* URL - Full URL to the MP3 audio file which you want to embed in the posts [Required].
-* WIDTH - Width of the MP3 player (must be integer) [optional, default is 500 pixels].
-* HEIGHT - Height of the MP3 player (must be integer) [optional, default is 27 pixels].
-* AUTOPLAY = Automatically start the song [optional, default is false].
-* CSS_STYLE - This is for the developers.
+= How to use the plugin? =
 
-Put the shortcode (of course, with the correct informations) in post(s) where you want to be displayed the player.
+First after installing the plugin go to the plugin options page which can be found under 
+Settings -> Google Mp3 Player
 
-Also, after installing and activating the plugin go to 'Setting > Google MP3 Player' submenu in the admin panel for more instructions.
+Set up / change the default settings of the plugin here.
+
+*Note: You can overwrite these settings for each player you add, with using the shortcode attributes (explained below)*
+
+= How to add/embed new player =
+
+Option 1: Copy the shortcode you are presented with at the plugin option page and replace the URL attributes. Best used when you want to embed the player in widget areas where you dont have the visual editor, or when you use just the text editor within wordpress.
+
+Option 2: When using the visual editor you will see a small 'note' icon next to the Add Media button. By clicking that you will be presented with list of options which are needed for the player shortcode. You can change the default settings you have set on the plugin options page. Click Insert and you are done.
+
+*Note: It's reccomended to use OGG files along with the MP3 files if you want Firefox to display the HTML5 player. By default Firefox does not support HTML5 with MP3 files. You can use this online tool
+<http://media.io/>*
+
+Example shortcode:
+
+`
+[ca_audio url_mp3="audiofile.mp3" url_ogg="audiofile.ogg" width="400" height="50" css_class="codeart-google-mp3-player" autoplay="false" download="true" html5="true" skin="small" align="none"]
+`
+**Don't forget to replace the example url's with your real ones.**
+
+= Shortcode Attributes =
+
+* **url_mp3** - Full URL to the MP3 audio file which you want to embed in the posts [Required].
+* **url_ogg** - Full URL to the OGG audio file which you want to embed in the posts [Optional but reccomended for use of HTML5 on Firefox browser].
+* **width** - Width of the MP3 player (must be integer) [optional].
+* **height** - Height of the MP3 player (must be integer) [optional].
+* **autoplay** - Automatically start the song [optional, default is false].
+* **download** - Automatically add download button next to the player for each song [options, default is false]
+* **html5** - Choose whether to use the HTML5 player. [optional, defalt is false, usefulf if you want mobile devices to play the song]
+* **skin** - Choose whether to use the small or the big HTML5 skin. [optional, takes effect only when HTML5 is set to true, values are "small" and "regular"]
+* **align** - You can choose to align the player right/left/center/none [Optional, default is none]
+* **css_class** - This is for the developers. [optional]
+
+
 
 == Installation ==
 
@@ -42,9 +64,32 @@ Also, after installing and activating the plugin go to 'Setting > Google MP3 Pla
 
 == Changelog ==
 
+= 1.0.11 =
+
+- FIX: Fixed the player for all iOS devices, the plugin now displays properly.
+- FIX: Added box-sizing: border-box property to player controls holder.
+- FIX: Fixed the fallback to flash player for Mozilla.
+- FIX: Fixed the look of the flash player with download option ON.
+- FIX: Changed the name of the downloadable audio file from audio file path to audio file title.
+
+
+= 1.0.10 =
+
+- FIX: Fixed the bug when updating from old version.
+- FIX: Fixed the bug when using custom class.
+- NEW: Added an option to choose the player alignment (left/right/center/none)
+
+
+= 1.0.9 = 
+
+- NEW: Added HTML5 support (you must enable it in the plugin options page)
+- NEW: Added 2 skins for HTML 5 (regular & small)
+- NEW: Added option to set the audio file to be downloadable
+
+
 = 1.0.8 = 
 
-- NEW: Added option for autoplay
+- NEW: Added autoplay option
 - NEW: Add HTML5 player support for iPhone only
 
 
