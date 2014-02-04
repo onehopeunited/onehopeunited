@@ -14,12 +14,12 @@ $more = 0; ?>
 
 <div class="ohu_sidebar1">
 <div style="margin-bottom:5px;"><span class="redtext" stlye="line-height:2em;">NEWSFEED</span></div>
+<img src="http://onehopeunited.org/wp-content/themes/ohu/images/white.gif" style="vertical-align:middle;"> <a href="/news/">Show All News</a><br />
 
-<img src="http://onehopeunited.org/wp-content/themes/ohu/images/white.gif" style="vertical-align:middle;"> <a href="http://onehopeunited.org/news/">Show All News</a><br />
-<img src="http://onehopeunited.org/wp-content/themes/ohu/images/in-the-news-white.gif" style="vertical-align:middle;"> <a href="http://onehopeunited.org/news/in-the-news/" style="color:gray;">In The News</a><br />
-<img src="http://onehopeunited.org/wp-content/themes/ohu/images/stories-of-hope-white.gif" style="vertical-align:middle;" style="color:gray;"> <a href="http://onehopeunited.org/news/stories-of-hope/" style="color:gray;">Stories of Hope</a><br />
-<img src="http://onehopeunited.org/wp-content/themes/ohu/images/press-releases-white.gif" style="vertical-align:middle;"> <a href="http://onehopeunited.org/news/press-releases/" style="color:gray;">Press Releases</a><br />
-<img src="http://onehopeunited.org/wp-content/themes/ohu/images/everyday-heroes-white.gif" style="vertical-align:middle;"> <a href="http://onehopeunited.org/news/everyday-heroes/" style="color:gray;">Everyday Heroes</a>
+<img src="http://onehopeunited.org/wp-content/themes/ohu/images/in-the-news-white.gif" style="vertical-align:middle;"> <a href="/news/in-the-news/" style="color:gray;">Newsletters</a><br />
+<img src="http://onehopeunited.org/wp-content/themes/ohu/images/stories-of-hope-white.gif" style="vertical-align:middle;" style="color:gray;"> <a href="/news/stories-of-hope/" style="color:gray;">Stories</a><br />
+<img src="http://onehopeunited.org/wp-content/themes/ohu/images/press-releases-white.gif" style="vertical-align:middle;"> <a href="/news/press-releases/" style="color:gray;">Press Releases</a><br />
+<!--<img src="http://onehopeunited.org/wp-content/themes/ohu/images/everyday-heroes-white.gif" style="vertical-align:middle;"> <a href="/news/everyday-heroes/" style="color:gray;">Everyday Heroes</a>-->
 
 <div style="border-top:1px solid #ccc;padding-top:10px;margin-top:10px;">
 <b>MEDIA CONTACT:</b><br />
@@ -122,14 +122,14 @@ new TWTR.Widget({
 
 
 <span style="color:#757575;font-size:0.8em;text-transform:uppercase;font-weight:bold;"><?php
-if ( in_category('everyday-heroes') ) {
-	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/everyday-heroes.gif" style="vertical-align:middle;"> Everyday Heroes';
-} elseif ( in_category('in-the-news') ) {
-	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/in-the-news.gif" style="vertical-align:middle;"> In The News';
+if ( in_category('newsletters') ) {
+    echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/in-the-news.gif" style="vertical-align:middle;"> Newsletters';
 } elseif ( in_category('press-releases') ) {
 	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/press-releases.gif" style="vertical-align:middle;"> Press Releases';
-} elseif ( in_category('stories-of-hope') ) {
-	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/stories-of-hope.gif" style="vertical-align:middle;"> Stories of Hope';
+} elseif ( in_category('stories') ) {
+	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/stories-of-hope.gif" style="vertical-align:middle;"> Stories';
+} elseif ( in_category('everyday-heroes') ) {
+    echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/everyday-heroes.gif" style="vertical-align:middle;"> Everyday Heroes';
 }
 ?> | </span>
 
