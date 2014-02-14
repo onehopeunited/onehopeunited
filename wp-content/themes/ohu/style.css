@@ -3036,3 +3036,52 @@ table.custom{
     padding:15px;
     width:270px;
 }
+
+/*new homepage styles*/
+.clear { clear: both; }
+
+.left-content {
+    width: 364px;
+    float: left;
+}
+
+.right-content {
+    padding-left: 10px;
+    float: right;
+    width: 555px;
+}
+
+.homepage-post-head {
+    position: relative;
+    overflow: hidden;
+}
+
+.homepage-post-head img, .homepage-post-head h2 {
+    display: inline-block;
+}
+
+.homepage-post-head h2 {
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    left: 120px;
+    line-height: 38px;
+}
+
+.homepage-links {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.homepage-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.homepage-links ul li {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin-right: 125px;
+}
