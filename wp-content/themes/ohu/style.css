@@ -3098,3 +3098,20 @@ table.custom{
     text-align: left;
     margin-right: 125px;
 }
+
+/*slider styles*/
+.slider-shadow-2 {
+    display: none;
+}
+
+#riva-slider-2-shell .riva-slider-holder {
+    border: none;
+}
+
+#riva-slider-2-shell {
+    padding: 0 0 40px 0;
+}
+
+.rs-control-nav, .rs-pause-timer {
+    display: none;
+}

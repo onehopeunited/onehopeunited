@@ -1,0 +1,4773 @@
+.riva-slider-holder div,
+.riva-slider-holder ul,
+.riva-slider-holder .riva-slider li,
+.riva-slider-holder span,
+.riva-slider-holder a,
+.riva-slider-holder img,
+.riva-slider-holder iframe {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+  list-style: none !important;
+  list-style-type: none !important;
+  list-style-image: none !important;
+  list-style-position: outside !important;
+}
+
+.riva-slider-holder iframe {
+  outline: none !important;
+  z-index: 7 !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.riva-slider-holder div.riva-slider-preload,
+.riva-slider-holder ul.riva-slider {
+  overflow: hidden !important;
+}
+
+div.riva-slider-holder {
+  position: relative !important;
+}
+
+div.riva-slider-preload {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 7;
+}
+
+div.rs-pause-timer {
+  z-index: 2;
+}
+
+ul.riva-slider {
+  position: relative !important;
+}
+
+ul.riva-slider li {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 1;
+}
+
+ul.riva-slider li iframe {
+  display: none;
+  z-index: 7;
+}
+
+li.z-index {
+  z-index: 4 !important;
+}
+
+ul.riva-slider li div.rs-content {
+  position: absolute;
+  display: none;
+}
+
+ul.riva-slider li div.rs-content h2,
+ul.riva-slider li div.rs-content p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.riva-slider li div.rs-content .rs-content-holder {
+  overflow: hidden;
+}
+
+div.rs-next, div.rs-prev {
+  z-index: 5;
+  opacity: 0;
+  position: absolute !important;
+  cursor: pointer;
+  display: none;
+}
+
+div.rs-next.no-hide, div.rs-prev.no-hide {
+  opacity: 1 !important;
+  display: block !important;
+}
+
+ul.rs-control-nav {
+  visibility: hidden;
+  z-index: 6;
+}
+
+ul.rs-control-nav li {
+  cursor: pointer;
+  list-style: none !important;
+  list-style-type: none !important;
+  list-style-image: none !important;
+  list-style-position: outside !important;
+}
+
+ul.rs-control-nav li.rs-numbers {
+  background-image: none !important;
+}
+
+div.rs-pause-button {
+  z-index: 5;
+  cursor: pointer;
+  display: none;
+  opacity: 0;
+}
+
+div.rs-pause-button.no-hide {
+  opacity: 0.5;
+  display: block !important;
+}
+
+div.rs-video-button {
+  z-index: 5;
+  cursor: pointer;
+}
+
+div.rs-close-video {
+  z-index: 5;
+  cursor: pointer;
+}
+
+div.rs-pause-button.paused {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* Important structural CSS for slideshow id: 2 */
+
+.slider-id-2,
+.slider-id-2 div.riva-slider-preload,
+.slider-id-2 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-2 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-2 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-2 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-2 div.rs-next,
+.slider-id-2 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-2 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-2 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-2 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-2 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-2 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-2 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-2 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 4 */
+
+.slider-id-4,
+.slider-id-4 div.riva-slider-preload,
+.slider-id-4 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-4 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-4 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-4 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-4 div.rs-next,
+.slider-id-4 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-4 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-4 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-4 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-4 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-4 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-4 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-4 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 5 */
+
+.slider-id-5,
+.slider-id-5 div.riva-slider-preload,
+.slider-id-5 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-5 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-5 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-5 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-5 div.rs-next,
+.slider-id-5 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-5 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-5 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-5 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-5 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-5 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-5 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-5 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 6 */
+
+.slider-id-6,
+.slider-id-6 div.riva-slider-preload,
+.slider-id-6 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-6 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-6 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-6 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-6 div.rs-next,
+.slider-id-6 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-6 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-6 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-6 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-6 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-6 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-6 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-6 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 7 */
+
+.slider-id-7,
+.slider-id-7 div.riva-slider-preload,
+.slider-id-7 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-7 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-7 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-7 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-7 div.rs-next,
+.slider-id-7 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-7 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-7 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-7 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-7 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-7 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-7 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-7 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 8 */
+
+.slider-id-8,
+.slider-id-8 div.riva-slider-preload,
+.slider-id-8 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-8 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-8 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-8 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-8 div.rs-next,
+.slider-id-8 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-8 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-8 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-8 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-8 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-8 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-8 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-8 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 9 */
+
+.slider-id-9,
+.slider-id-9 div.riva-slider-preload,
+.slider-id-9 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-9 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-9 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-9 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-9 div.rs-next,
+.slider-id-9 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-9 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-9 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-9 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-9 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-9 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-9 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-9 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 10 */
+
+.slider-id-10,
+.slider-id-10 div.riva-slider-preload,
+.slider-id-10 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-10 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-10 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-10 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-10 div.rs-next,
+.slider-id-10 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-10 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-10 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-10 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-10 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-10 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-10 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-10 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 11 */
+
+.slider-id-11,
+.slider-id-11 div.riva-slider-preload,
+.slider-id-11 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-11 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-11 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-11 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-11 div.rs-next,
+.slider-id-11 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-11 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-11 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-11 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-11 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-11 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-11 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-11 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 12 */
+
+.slider-id-12,
+.slider-id-12 div.riva-slider-preload,
+.slider-id-12 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-12 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-12 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-12 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-12 div.rs-next,
+.slider-id-12 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-12 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-12 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-12 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-12 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-12 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-12 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-12 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 13 */
+
+.slider-id-13,
+.slider-id-13 div.riva-slider-preload,
+.slider-id-13 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-13 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-13 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-13 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-13 div.rs-next,
+.slider-id-13 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-13 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-13 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-13 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-13 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-13 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-13 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-13 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 14 */
+
+.slider-id-14,
+.slider-id-14 div.riva-slider-preload,
+.slider-id-14 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-14 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-14 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-14 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-14 div.rs-next,
+.slider-id-14 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-14 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-14 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-14 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-14 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-14 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-14 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-14 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 15 */
+
+.slider-id-15,
+.slider-id-15 div.riva-slider-preload,
+.slider-id-15 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-15 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-15 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-15 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-15 div.rs-next,
+.slider-id-15 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-15 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-15 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-15 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-15 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-15 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-15 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-15 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 16 */
+
+.slider-id-16,
+.slider-id-16 div.riva-slider-preload,
+.slider-id-16 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-16 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-16 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-16 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-16 div.rs-next,
+.slider-id-16 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-16 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-16 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-16 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-16 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-16 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-16 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-16 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Important structural CSS for slideshow id: 17 */
+
+.slider-id-17,
+.slider-id-17 div.riva-slider-preload,
+.slider-id-17 ul.riva-slider {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-17 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-17 ul.riva-slider li {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-id-17 div.riva-slider-preload {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-17 div.rs-next,
+.slider-id-17 div.rs-prev {
+    top: 186px;
+}
+
+.slider-id-17 .rs-blind {
+    height: 400px;
+    width: 43px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-17 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-17 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-17 .rs-cube {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-17 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-17 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-17 {
+    width: 600px;
+    height: 46px;
+}
+
+/* Skin CSS for slideshow id: 2 */
+
+.slider-id-2 {
+    border: 0px solid #000;
+}
+
+.slider-id-2 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-2.rs-ie7 .rs-pause-timer,
+.slider-id-2.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-2 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-2 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-2 .rs-next,
+.slider-id-2 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-2 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-2 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-2 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-2 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-2 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-2 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-2 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-2.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-2 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-2 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-2 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-2 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-2 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-2 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-2 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-2 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-2 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-2 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-2 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-2 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-2 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-2 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-2 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-2 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-2 .rs-text-left,
+.slider-id-2 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-2 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-2 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-2 .rs-text-left .rs-content-holder,
+.slider-id-2 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-2 .rs-text-top,
+.slider-id-2 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-2 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-2 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-2 .rs-text-top .rs-content-holder,
+.slider-id-2 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-2 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 4 */
+
+.slider-id-4 {
+    border: 0px solid #000;
+}
+
+.slider-id-4 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-4.rs-ie7 .rs-pause-timer,
+.slider-id-4.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-4 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-4 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-4 .rs-next,
+.slider-id-4 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-4 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-4 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-4 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-4 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-4 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-4 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-4 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-4.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-4 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-4 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-4 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-4 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-4 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-4 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-4 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-4 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-4 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-4 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-4 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-4 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-4 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-4 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-4 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-4 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-4 .rs-text-left,
+.slider-id-4 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-4 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-4 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-4 .rs-text-left .rs-content-holder,
+.slider-id-4 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-4 .rs-text-top,
+.slider-id-4 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-4 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-4 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-4 .rs-text-top .rs-content-holder,
+.slider-id-4 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-4 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 5 */
+
+.slider-id-5 {
+    border: 0px solid #000;
+}
+
+.slider-id-5 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-5.rs-ie7 .rs-pause-timer,
+.slider-id-5.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-5 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-5 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-5 .rs-next,
+.slider-id-5 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-5 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-5 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-5 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-5 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-5 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-5 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-5 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-5.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-5 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-5 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-5 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-5 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-5 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-5 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-5 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-5 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-5 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-5 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-5 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-5 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-5 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-5 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-5 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-5 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-5 .rs-text-left,
+.slider-id-5 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-5 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-5 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-5 .rs-text-left .rs-content-holder,
+.slider-id-5 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-5 .rs-text-top,
+.slider-id-5 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-5 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-5 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-5 .rs-text-top .rs-content-holder,
+.slider-id-5 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-5 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 6 */
+
+.slider-id-6 {
+    border: 0px solid #000;
+}
+
+.slider-id-6 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-6.rs-ie7 .rs-pause-timer,
+.slider-id-6.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-6 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-6 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-6 .rs-next,
+.slider-id-6 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-6 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-6 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-6 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-6 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-6 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-6 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-6 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-6.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-6 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-6 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-6 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-6 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-6 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-6 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-6 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-6 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-6 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-6 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-6 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-6 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-6 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-6 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-6 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-6 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-6 .rs-text-left,
+.slider-id-6 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-6 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-6 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-6 .rs-text-left .rs-content-holder,
+.slider-id-6 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-6 .rs-text-top,
+.slider-id-6 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-6 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-6 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-6 .rs-text-top .rs-content-holder,
+.slider-id-6 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-6 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 7 */
+
+.slider-id-7 {
+    border: 0px solid #000;
+}
+
+.slider-id-7 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-7.rs-ie7 .rs-pause-timer,
+.slider-id-7.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-7 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-7 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-7 .rs-next,
+.slider-id-7 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-7 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-7 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-7 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-7 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-7 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-7 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-7 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-7.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-7 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-7 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-7 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-7 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-7 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-7 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-7 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-7 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-7 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-7 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-7 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-7 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-7 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-7 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-7 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-7 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-7 .rs-text-left,
+.slider-id-7 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-7 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-7 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-7 .rs-text-left .rs-content-holder,
+.slider-id-7 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-7 .rs-text-top,
+.slider-id-7 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-7 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-7 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-7 .rs-text-top .rs-content-holder,
+.slider-id-7 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-7 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 8 */
+
+.slider-id-8 {
+    border: 0px solid #000;
+}
+
+.slider-id-8 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-8.rs-ie7 .rs-pause-timer,
+.slider-id-8.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-8 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-8 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-8 .rs-next,
+.slider-id-8 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-8 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-8 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-8 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-8 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-8 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-8 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-8 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-8.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-8 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-8 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-8 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-8 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-8 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-8 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-8 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-8 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-8 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-8 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-8 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-8 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-8 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-8 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-8 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-8 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-8 .rs-text-left,
+.slider-id-8 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-8 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-8 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-8 .rs-text-left .rs-content-holder,
+.slider-id-8 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-8 .rs-text-top,
+.slider-id-8 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-8 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-8 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-8 .rs-text-top .rs-content-holder,
+.slider-id-8 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-8 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 9 */
+
+.slider-id-9 {
+    border: 0px solid #000;
+}
+
+.slider-id-9 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-9.rs-ie7 .rs-pause-timer,
+.slider-id-9.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-9 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-9 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-9 .rs-next,
+.slider-id-9 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-9 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-9 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-9 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-9 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-9 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-9 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-9 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-9.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-9 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-9 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-9 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-9 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-9 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-9 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-9 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-9 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-9 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-9 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-9 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-9 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-9 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-9 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-9 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-9 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-9 .rs-text-left,
+.slider-id-9 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-9 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-9 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-9 .rs-text-left .rs-content-holder,
+.slider-id-9 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-9 .rs-text-top,
+.slider-id-9 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-9 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-9 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-9 .rs-text-top .rs-content-holder,
+.slider-id-9 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-9 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 10 */
+
+.slider-id-10 {
+    border: 0px solid #000;
+}
+
+.slider-id-10 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-10.rs-ie7 .rs-pause-timer,
+.slider-id-10.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-10 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-10 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-10 .rs-next,
+.slider-id-10 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-10 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-10 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-10 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-10 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-10 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-10 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-10 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-10.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-10 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-10 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-10 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-10 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-10 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-10 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-10 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-10 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-10 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-10 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-10 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-10 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-10 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-10 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-10 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-10 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-10 .rs-text-left,
+.slider-id-10 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-10 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-10 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-10 .rs-text-left .rs-content-holder,
+.slider-id-10 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-10 .rs-text-top,
+.slider-id-10 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-10 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-10 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-10 .rs-text-top .rs-content-holder,
+.slider-id-10 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-10 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 11 */
+
+.slider-id-11 {
+    border: 0px solid #000;
+}
+
+.slider-id-11 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-11.rs-ie7 .rs-pause-timer,
+.slider-id-11.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-11 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-11 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-11 .rs-next,
+.slider-id-11 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-11 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-11 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-11 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-11 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-11 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-11 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-11 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-11.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-11 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-11 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-11 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-11 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-11 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-11 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-11 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-11 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-11 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-11 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-11 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-11 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-11 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-11 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-11 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-11 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-11 .rs-text-left,
+.slider-id-11 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-11 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-11 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-11 .rs-text-left .rs-content-holder,
+.slider-id-11 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-11 .rs-text-top,
+.slider-id-11 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-11 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-11 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-11 .rs-text-top .rs-content-holder,
+.slider-id-11 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-11 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 12 */
+
+.slider-id-12 {
+    border: 0px solid #000;
+}
+
+.slider-id-12 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-12.rs-ie7 .rs-pause-timer,
+.slider-id-12.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-12 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-12 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-12 .rs-next,
+.slider-id-12 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-12 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-12 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-12 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-12 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-12 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-12 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-12 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-12.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-12 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-12 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-12 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-12 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-12 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-12 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-12 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-12 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-12 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-12 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-12 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-12 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-12 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-12 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-12 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-12 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-12 .rs-text-left,
+.slider-id-12 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-12 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-12 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-12 .rs-text-left .rs-content-holder,
+.slider-id-12 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-12 .rs-text-top,
+.slider-id-12 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-12 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-12 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-12 .rs-text-top .rs-content-holder,
+.slider-id-12 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-12 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 13 */
+
+.slider-id-13 {
+    border: 0px solid #000;
+}
+
+.slider-id-13 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-13.rs-ie7 .rs-pause-timer,
+.slider-id-13.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-13 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-13 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-13 .rs-next,
+.slider-id-13 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-13 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-13 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-13 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-13 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-13 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-13 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-13 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-13.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-13 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-13 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-13 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-13 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-13 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-13 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-13 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-13 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-13 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-13 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-13 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-13 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-13 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-13 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-13 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-13 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-13 .rs-text-left,
+.slider-id-13 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-13 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-13 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-13 .rs-text-left .rs-content-holder,
+.slider-id-13 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-13 .rs-text-top,
+.slider-id-13 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-13 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-13 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-13 .rs-text-top .rs-content-holder,
+.slider-id-13 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-13 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 14 */
+
+.slider-id-14 {
+    border: 0px solid #000;
+}
+
+.slider-id-14 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-14.rs-ie7 .rs-pause-timer,
+.slider-id-14.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-14 .rs-next {
+    background: url(http://new.onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-14 .rs-prev {
+    background: url(http://new.onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-14 .rs-next,
+.slider-id-14 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-14 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-14 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-14 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-14 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-14 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-14 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-14 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-14.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-14 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-14 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-14 .rs-control-nav li {
+    background-image: url(http://new.onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-14 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-14 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-14 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-14 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-14 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-14 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-14 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-14 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-14 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-14 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-14 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-14 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-14 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-14 .rs-text-left,
+.slider-id-14 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-14 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-14 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-14 .rs-text-left .rs-content-holder,
+.slider-id-14 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-14 .rs-text-top,
+.slider-id-14 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-14 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-14 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-14 .rs-text-top .rs-content-holder,
+.slider-id-14 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-14 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 15 */
+
+.slider-id-15 {
+    border: 0px solid #000;
+}
+
+.slider-id-15 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-15.rs-ie7 .rs-pause-timer,
+.slider-id-15.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-15 .rs-next {
+    background: url(http://new.onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-15 .rs-prev {
+    background: url(http://new.onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-15 .rs-next,
+.slider-id-15 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-15 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-15 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-15 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-15 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-15 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-15 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-15 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-15.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-15 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-15 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-15 .rs-control-nav li {
+    background-image: url(http://new.onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-15 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-15 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-15 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-15 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-15 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-15 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-15 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-15 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-15 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-15 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-15 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-15 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-15 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-15 .rs-text-left,
+.slider-id-15 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-15 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-15 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-15 .rs-text-left .rs-content-holder,
+.slider-id-15 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-15 .rs-text-top,
+.slider-id-15 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-15 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-15 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-15 .rs-text-top .rs-content-holder,
+.slider-id-15 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-15 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 16 */
+
+.slider-id-16 {
+    border: 0px solid #000;
+}
+
+.slider-id-16 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-16.rs-ie7 .rs-pause-timer,
+.slider-id-16.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-16 .rs-next {
+    background: url(http://new.onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-16 .rs-prev {
+    background: url(http://new.onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-16 .rs-next,
+.slider-id-16 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-16 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-16 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-16 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-16 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-16 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-16 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-16 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-16.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-16 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-16 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-16 .rs-control-nav li {
+    background-image: url(http://new.onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-16 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-16 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-16 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-16 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-16 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-16 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-16 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-16 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-16 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-16 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-16 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-16 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-16 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-16 .rs-text-left,
+.slider-id-16 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-16 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-16 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-16 .rs-text-left .rs-content-holder,
+.slider-id-16 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-16 .rs-text-top,
+.slider-id-16 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-16 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-16 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-16 .rs-text-top .rs-content-holder,
+.slider-id-16 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-16 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 17 */
+
+.slider-id-17 {
+    border: 0px solid #000;
+}
+
+.slider-id-17 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-17.rs-ie7 .rs-pause-timer,
+.slider-id-17.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-17 .rs-next {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/right-arrow.png) top right no-repeat;
+}
+
+.slider-id-17 .rs-prev {
+    background: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/left-arrow.png) top left no-repeat;
+}
+
+.slider-id-17 .rs-next,
+.slider-id-17 .rs-prev {
+    width: 27px;
+    height: 26px;
+}
+
+.slider-id-17 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-17 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-17 div.rs-next.outside {
+    left: 600px;
+}
+
+.slider-id-17 div.rs-prev.outside {
+    right: 600px;
+}
+
+.slider-id-17 div.rs-next.inside {
+    margin-right: 20px !important;
+}
+
+.slider-id-17 div.rs-prev.inside {
+    margin-left: 20px !important;
+}
+
+.slider-id-17 .rs-control-nav {
+    background-image: url() !important;
+    background-position: no-repeat top !important;
+    background-repeat: left !important;
+    background-color: #fff !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-17.rs-ie7 .rs-control-nav {
+    padding-bottom: 4px !important;
+}
+
+.slider-id-17 .bottom-left {
+    left: -0px;
+}
+
+.slider-id-17 .bottom-right {
+    right: -0px;
+}
+
+.slider-id-17 .rs-control-nav li {
+    background-image: url(http://onehopechilddevelopment.org/wp-content/themes/ohucdc/images/directors.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-17 .rs-control-nav li.rs-icons {
+    margin: 16px 5px 0px 5px !important;
+    width: 15px;
+    height: 16px;
+}
+
+.slider-id-17 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -32px !important;
+}
+
+.slider-id-17 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -16px !important;
+}
+
+.slider-id-17 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-17 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-17 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-17 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-17 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-17 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-17 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-17 .rs-content .rs-content-holder {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.slider-id-17 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-17 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-17 .rs-text-left,
+.slider-id-17 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-17 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-17 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-17 .rs-text-left .rs-content-holder,
+.slider-id-17 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-17 .rs-text-top,
+.slider-id-17 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-17 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-17 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-17 .rs-text-top .rs-content-holder,
+.slider-id-17 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-17 {
+    background: url(http://onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://new.onehopechilddevelopment.org/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=46&w=600&zc=1) top center no-repeat;
+}
