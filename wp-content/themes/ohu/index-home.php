@@ -17,13 +17,35 @@ Template Name: Index Home
 
     <!--START right-content-->
     <div class="right-content">
+        <?php
+        global $post;
+        $args = array( 'numberposts' => 1, 'offset'=> 0, 'category' => 13 );
+        $myposts = get_posts( $args );
+        foreach( $myposts as $post ) :	setup_postdata($post); ?>
         <div class="homepage-post">
             <div class="homepage-post-head">
-                <img src="<?php bloginfo('template_directory'); ?>/images/post-image.jpg" alt="post image"/>
-                <h2>Test news title</h2>
+                <a href="<?php the_permalink(); ?>">
+                    <?php if ( get_post_meta($post->ID, 'thumbnail', true) ) { ?>
+                        <img src="<?php echo get_post_meta($post->ID, 'thumbnail', true) ?>" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">
+                    <?php } else { ?>
+                        <?php
+                        if ( in_category('everyday-heroes') ) {
+                            echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/everyday-heroes-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
+                        } elseif ( in_category('in-the-news') ) {
+                            echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/in-the-news-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
+                        } elseif ( in_category('press-releases') ) {
+                            echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/press-release-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
+                        } elseif ( in_category('stories-of-hope') ) {
+                            echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/stories-of-hope-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
+                        }
+                        ?>
+                    <?php } ?>
+                </a>
+                <h2><a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <?php the_excerpt(); ?>
         </div>
+        <?php endforeach; ?>
     </div>
     <!--END right-content-->
     <div class="clear"></div><!--clearing float-->

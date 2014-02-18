@@ -3040,6 +3040,10 @@ table.custom{
 /*new homepage styles*/
 .clear { clear: both; }
 
+.content-block {
+    margin-bottom: 30px;
+}
+
 .left-content {
     width: 364px;
     float: left;
@@ -3060,12 +3064,21 @@ table.custom{
     display: inline-block;
 }
 
+.homepage-post-head a {
+    color: #000;
+}
+
 .homepage-post-head h2 {
     position: absolute;
     font-size: 25px;
     top: 10px;
-    left: 120px;
+    left: 155px;
     line-height: 38px;
+}
+
+.post-excerpt {
+    display: block;
+    margin-top: -20px;
 }
 
 .homepage-links {
