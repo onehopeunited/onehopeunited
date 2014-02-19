@@ -56,27 +56,27 @@ Template Name: Index Home
 <div class="homepage-links">
     <ul>
         <li>
-            <a href="#">
+            <a class="graytext" href="/news/">
                 <img src="<?php bloginfo('template_directory'); ?>/images/post-image.jpg" alt="link image"/>
-                <span>Lorem ipsum dolor sit amet,orem ipsum dolor sit amet orem ipsum dolor sit amet djwew kjssjdvc sksnd kdcjc</span>
+                <span>The stories of GO BLUE</span>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a class="graytext" href="/blue-ribbon-month-host-an-event/">
                 <img src="<?php bloginfo('template_directory'); ?>/images/post-image.jpg" alt="link image"/>
-                <span>Lorem ipsum dolor sit amet,orem ipsum dolor sit amet orem ipsum dolor sit amet djwew kjssjdvc sksnd kdcjc</span>
+                <span>Host a Fundraiser</span>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a class="graytext" href="/calendar/">
                 <img src="<?php bloginfo('template_directory'); ?>/images/post-image.jpg" alt="link image"/>
-                <span>Lorem ipsum dolor sit amet,orem ipsum dolor sit amet orem ipsum dolor sit amet djwew kjssjdvc sksnd kdcjc</span>
+                <span>Calendar of Events </span>
             </a>
         </li>
         <li>
-            <a href="/calendar/">
+            <a class="graytext" href="/blue-ribbon-month-spread-the-word/">
                 <img src="<?php bloginfo('template_directory'); ?>/images/post-image.jpg" alt="link image"/>
-                <span>Lorem ipsum dolor sit amet,orem ipsum dolor sit amet orem ipsum dolor sit amet djwew kjssjdvc sksnd kdcjc</span>
+                <span>Spread the Word</span>
             </a>
         </li>
     </ul>

@@ -3094,13 +3094,21 @@ table.custom{
 
 .homepage-links ul li {
     display: inline-block;
-    width: 100px;
-    text-align: left;
-    margin-right: 125px;
+    width: 215px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.homepage-links ul li img {
+    width: 150px;
+    display: block;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    margin-left: 26px;
 }
 
 /*slider styles*/
-.slider-shadow-2 {
+#riva-slider-2-shell .slider-shadow-2 {
     display: none;
 }
 
@@ -3112,6 +3120,6 @@ table.custom{
     padding: 0 0 40px 0;
 }
 
-.rs-control-nav, .rs-pause-timer {
+#riva-slider-2-shell .rs-control-nav, #riva-slider-2-shell .rs-pause-timer {
     display: none;
 }
