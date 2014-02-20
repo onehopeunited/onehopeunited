@@ -3123,3 +3123,19 @@ table.custom{
 #riva-slider-2-shell .rs-control-nav, #riva-slider-2-shell .rs-pause-timer {
     display: none;
 }
+/*slideshow 3*/
+#riva-slider-3-shell .slider-shadow-3 {
+    display: none;
+}
+
+#riva-slider-3-shell .riva-slider-holder {
+    border: none;
+}
+
+#riva-slider-3-shell {
+    padding: 0 0 40px 0;
+}
+
+#riva-slider-3-shell .rs-control-nav, #riva-slider-3-shell .rs-pause-timer {
+    display: none;
+}

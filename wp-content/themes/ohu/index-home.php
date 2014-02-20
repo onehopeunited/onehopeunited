@@ -9,6 +9,8 @@ Template Name: Index Home
 <!--START content-block-->
 <div class="content-block">
 
+    <?php if ( function_exists( 'riva_slider_pro' ) ) { riva_slider_pro( 3 ); } ?>
+
     <!--START left-content-->
     <div class="left-content">
         <img src="<?php bloginfo('template_directory'); ?>/images/donate-box.jpg" alt="donate-box"/>
