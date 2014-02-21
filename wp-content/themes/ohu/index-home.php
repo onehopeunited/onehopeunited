@@ -33,11 +33,11 @@ Template Name: Index Home
                         <?php
                         if ( in_category('everyday-heroes') ) {
                             echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/everyday-heroes-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
-                        } elseif ( in_category('in-the-news') ) {
+                        } elseif ( in_category('newsletters') ) {
                             echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/in-the-news-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
                         } elseif ( in_category('press-releases') ) {
                             echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/press-release-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
-                        } elseif ( in_category('stories-of-hope') ) {
+                        } elseif ( in_category('stories') ) {
                             echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/stories-of-hope-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
                         }
                         ?>
@@ -59,25 +59,25 @@ Template Name: Index Home
     <ul>
         <li>
             <a class="graytext" href="/news/">
-                <img src="<?php bloginfo('template_directory'); ?>/images/post-image.jpg" alt="link image"/>
+                <img src="<?php bloginfo('template_directory'); ?>/images/goblue/the-stories-of-go-blue.jpg" alt="link image"/>
                 <span>The stories of GO BLUE</span>
             </a>
         </li>
         <li>
             <a class="graytext" href="/blue-ribbon-month-host-an-event/">
-                <img src="<?php bloginfo('template_directory'); ?>/images/post-image.jpg" alt="link image"/>
+                <img src="<?php bloginfo('template_directory'); ?>/images/goblue/host-a-fundraiser.jpg" alt="link image"/>
                 <span>Host a Fundraiser</span>
             </a>
         </li>
         <li>
             <a class="graytext" href="/calendar/">
-                <img src="<?php bloginfo('template_directory'); ?>/images/post-image.jpg" alt="link image"/>
+                <img src="<?php bloginfo('template_directory'); ?>/images/goblue/calendar-of-events.jpg" alt="link image"/>
                 <span>Calendar of Events </span>
             </a>
         </li>
         <li>
             <a class="graytext" href="/blue-ribbon-month-spread-the-word/">
-                <img src="<?php bloginfo('template_directory'); ?>/images/post-image.jpg" alt="link image"/>
+                <img src="<?php bloginfo('template_directory'); ?>/images/goblue/spread-the-word.jpg" alt="link image"/>
                 <span>Spread the Word</span>
             </a>
         </li>
