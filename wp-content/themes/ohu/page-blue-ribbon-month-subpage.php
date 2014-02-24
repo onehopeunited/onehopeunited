@@ -17,7 +17,7 @@ Template Name: Blue Ribbon Month Subpage
 <img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-arrow.png">  <a href="/calendar/" style="color:#000">Calendar</a><br />
 <img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-arrow.png">  <a href="/stories/" style="color:#000">Stories</a><br />
 <img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-arrow.png">  <a href="/blue-ribbon-month-spread-the-word/" target="" style="color:#000">Spread the Word</a><br />
-<img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-arrow.png">  <a href="https://donate.onehopeunited.org/blue-ribbon-month-2013" style="color:#000">Donate Now!</a>
+<img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-arrow.png">  <a href="https://donate.onehopeunited.org/goblue" style="color:#000">Donate Now!</a>
 
 <table class="" style="margin-top:5px;">
 <tr>

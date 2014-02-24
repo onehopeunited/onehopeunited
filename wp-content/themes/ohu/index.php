@@ -56,11 +56,11 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
 <?php
 if ( in_category('everyday-heroes') ) {
 	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/everyday-heroes-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
-} elseif ( in_category('in-the-news') ) {
+} elseif ( in_category('newsletters') ) {
 	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/in-the-news-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
 } elseif ( in_category('press-releases') ) {
 	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/press-release-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
-} elseif ( in_category('stories-of-hope') ) {
+} elseif ( in_category('stories') ) {
 	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/stories-of-hope-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
 }
 ?>

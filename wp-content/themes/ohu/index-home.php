@@ -13,7 +13,9 @@ Template Name: Index Home
 
     <!--START left-content-->
     <div class="left-content">
-        <img src="<?php bloginfo('template_directory'); ?>/images/donate-box.jpg" alt="donate-box"/>
+        <a href="https://donate.onehopeunited.org/goblue">
+            <img src="<?php bloginfo('template_directory'); ?>/images/goblue/2014-OHU-GoBlue-banner-microsite.jpg" alt="donate now"/>
+        </a>
     </div>
     <!--END left-content-->
 
