@@ -3158,3 +3158,17 @@ table.custom{
 #riva-slider-3-shell .rs-control-nav, #riva-slider-3-shell .rs-pause-timer {
     display: none;
 }
+
+/*Calendar styles*/
+/*Central*/
+.fc-content .category-6 .fc-event-skin {
+    background-color: #FCB715;
+}
+/*Northern*/
+.fc-content .category-7 .fc-event-skin {
+    background-color: #E41C3A;
+}
+/*Florida*/
+.fc-content .category-8 .fc-event-skin {
+    background-color: #0096D7;
+}
