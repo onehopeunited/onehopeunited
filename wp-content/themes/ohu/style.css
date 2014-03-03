@@ -3161,14 +3161,23 @@ table.custom{
 
 /*Calendar styles*/
 /*Central*/
-.fc-content .category-6 .fc-event-skin {
+.fc-content .category-6 .fc-event-skin, .fc-event-skin {
     background-color: #FCB715;
+    border: 1px solid #ce9815;
+    cursor: pointer;
 }
 /*Northern*/
-.fc-content .category-7 .fc-event-skin {
+.fc-content .category-7 .fc-event-skin, .fc-event-skin {
     background-color: #E41C3A;
+    border: 1px solid #b21b2e;
+    cursor: pointer;
 }
 /*Florida*/
-.fc-content .category-8 .fc-event-skin {
+.fc-content .category-8 .fc-event-skin, .fc-event-skin {
     background-color: #0096D7;
+    border: 1px solid #0078af;
+    cursor: pointer;
 }
+
+.fc-content .fc-event {border: none;}
+.fc-event-skin {border-radius: 3px;}
