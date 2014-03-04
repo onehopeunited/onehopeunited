@@ -3159,25 +3159,48 @@ table.custom{
     display: none;
 }
 
-/*Calendar styles*/
+/*WP Calendar styles*/
 /*Central*/
-.fc-content .category-6 .fc-event-skin, .fc-event-skin {
-    background-color: #FCB715;
-    border: 1px solid #ce9815;
-    cursor: pointer;
-}
+/*.fc-content .category-6 .fc-event-skin, .fc-event-skin {*/
+    /*background-color: #FCB715;*/
+    /*border: 1px solid #ce9815;*/
+    /*cursor: pointer;*/
+/*}*/
 /*Northern*/
-.fc-content .category-7 .fc-event-skin, .fc-event-skin {
-    background-color: #E41C3A;
-    border: 1px solid #b21b2e;
-    cursor: pointer;
-}
+/*.fc-content .category-7 .fc-event-skin, .fc-event-skin {*/
+    /*background-color: #E41C3A;*/
+    /*border: 1px solid #b21b2e;*/
+    /*cursor: pointer;*/
+/*}*/
 /*Florida*/
-.fc-content .category-8 .fc-event-skin, .fc-event-skin {
-    background-color: #0096D7;
-    border: 1px solid #0078af;
-    cursor: pointer;
+/*.fc-content .category-8 .fc-event-skin, .fc-event-skin {*/
+    /*background-color: #0096D7;*/
+    /*border: 1px solid #0078af;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.fc-content .fc-event {border: none;}*/
+/*.fc-event-skin {border-radius: 3px;}*/
+
+/*All-in-one-event-calendar styles*/
+.ai1ec-event-popup {
+    display: none !important;
 }
 
-.fc-content .fc-event {border: none;}
-.fc-event-skin {border-radius: 3px;}
+.ai1ec-event-title {
+    width: 100% !important;
+}
+
+.ai1ec-month-view .ai1ec-event {
+    max-height: 56px !important;
+    min-height: 14px !important;
+}
+
+.ai1ec-month-view .ai1ec-event, .ai1ec-week-view .ai1ec-event, .ai1ec-oneday-view .ai1ec-event {
+    white-space: normal !important;
+}
+
+#ai1ec-view-dropdown {
+    display: none;
+}
+/*END All-in-one-event-calendar styles*/
