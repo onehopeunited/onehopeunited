@@ -3112,6 +3112,10 @@ table.custom{
 }
 
 /*spread the word styles*/
+.spread-word-img-titles {
+    text-align: center;
+}
+
 .spread-word-img-titles ul {
     margin: 5px 0 20px;
     padding: 0;
@@ -3124,26 +3128,40 @@ table.custom{
 
 .spread-the-word-article h2 {
     font-weight: 700;
+    text-decoration: underline;
+    margin: 15px 0;
 }
 
-/*slideshow 2 blue-ribbon-month-host-an-event page*/
-#riva-slider-2-shell .slider-shadow-2 {
-    display: none;
+.spread-the-word-article p {
+    margin: 15px 0 5px;
 }
 
-#riva-slider-2-shell .riva-slider-holder {
-    border: none;
+.sub-container {
+    padding-left: 20px;
 }
 
-#riva-slider-2-shell {
-    padding: 0 0 40px 0;
+.bold-text {
+    font-weight:700;
+    margin: 5px 0;
 }
 
-#riva-slider-2-shell .rs-control-nav, #riva-slider-2-shell .rs-pause-timer {
-    display: none;
+.par-img img {
+    position: relative;
+    top: 8px;
 }
+
+.img-mid {
+    position: relative;
+    top: 4px;
+}
+
+.img-mid-linkedin {
+    position: relative;
+    top: 7px;
+}
+
 /*slideshow 3 homepage blue */
-#riva-slider-3-shell .slider-shadow-3 {
+#riva-slider-3-shell .slider-shadow-3, #riva-slider-3-shell .rs-control-nav, #riva-slider-3-shell .rs-pause-timer {
     display: none;
 }
 
@@ -3153,10 +3171,6 @@ table.custom{
 
 #riva-slider-3-shell {
     padding: 0 0 40px 0;
-}
-
-#riva-slider-3-shell .rs-control-nav, #riva-slider-3-shell .rs-pause-timer {
-    display: none;
 }
 
 /*WP Calendar styles*/
@@ -3202,5 +3216,9 @@ table.custom{
 
 #ai1ec-view-dropdown {
     display: none;
+}
+
+.ai1ec-event {
+    color: #fff;
 }
 /*END All-in-one-event-calendar styles*/
