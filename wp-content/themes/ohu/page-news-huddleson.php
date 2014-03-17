@@ -10,6 +10,9 @@ Template Name: News: Hudelson Region
 			<div id="content1" role="main">
 
 <div class="ohu_sidebar1">
+    <div style="margin-right:-30px;margin-bottom:15px;">
+        <a href="/blue-ribbon-month/"><img class="back-btn" src="/wp-content/themes/ohu/images/goblue/back-button.png" alt="go back"></a>
+    </div>
 <div style="margin-bottom:5px;"><span class="redtext" stlye="line-height:2em;">NEWSFEED</span></div>
 <img src="http://onehopeunited.org/wp-content/themes/ohu/images/white.gif" style="vertical-align:middle;"> <a href="/news/" style="color:gray;">Show All News</a><br />
 

@@ -3113,7 +3113,7 @@ table.custom{
 
 /*spread the word styles*/
 .spread-word-img-titles {
-    text-align: center;
+    text-align: left;
 }
 
 .spread-word-img-titles ul {
@@ -3222,3 +3222,8 @@ table.custom{
     color: #fff;
 }
 /*END All-in-one-event-calendar styles*/
+
+.back-btn {
+    float: right;
+    margin-top: 10px;
+}

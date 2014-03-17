@@ -11,6 +11,7 @@ get_header(); ?>
         <div style="float:left;width:270px;padding-right:30px;border-right:1px solid #ccc;margin-top:50px;margin-bottom:30px;height:100%;">
             <div style="border-top:1px solid #ccc;margin-right:-30px;margin-bottom:15px;">
                 <img src="http://onehopeunited.org/wp-content/themes/ohu/images/get-involved.gif">
+                <a href="/blue-ribbon-month/"><img class="back-btn" src="/wp-content/themes/ohu/images/goblue/back-button.png" alt="go back"></a>
             </div>
             <img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-arrow.png">  <a href="/blue-ribbon-month-host-an-event/" style="color:#000">Host a Fundraiser</a><br />
             <img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-arrow.png">  <a href="/calendar/" style="color:#000">Calendar</a><br />
