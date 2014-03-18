@@ -3223,7 +3223,21 @@ table.custom{
 }
 /*END All-in-one-event-calendar styles*/
 
+/*GO BACK button left sidebar*/
 .back-btn {
     float: right;
     margin-top: 10px;
 }
+
+/*START month-long-events*/
+.entry-content1 .month-long-events td {
+    padding: 0;
+    font-size: 12px;
+}
+
+.entry-content1 .month-long-events td table {
+    margin: 0;
+}
+
+
+/*END month-long-events*/
