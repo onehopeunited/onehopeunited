@@ -116,7 +116,7 @@ get_header(); ?>
                 <div class="month-long-events">
                     <br />
                     <div  style="text-align:center;">
-                        <span style="font-size:1.3em;color:#2f571a;font-weight:bold;">Month-long events</span>
+                        <span style="font-size:1.3em;color:#2f571a;font-weight:bold;">Community Partner Events</span>
                     </div>
                     <br />
                     <hr>
@@ -145,7 +145,7 @@ get_header(); ?>
                                 $myposts = get_posts( $args );
                                 foreach( $myposts as $post ) :	setup_postdata($post); ?>
 
-                                    <?php if (get_post_meta($post->ID, 'month-long', true)): ?>
+                                    <?php if (get_post_meta($post->ID, 'events-list', true)): ?>
 
                                         <table style="padding:10px;" class="<?php echo get_post_meta($post->ID, 'highlight', true) ?>">
                                             <tr>
@@ -178,7 +178,7 @@ get_header(); ?>
                                 $myposts = get_posts( $args );
                                 foreach( $myposts as $post ) :	setup_postdata($post); ?>
 
-                                    <?php if (get_post_meta($post->ID, 'month-long', true)): ?>
+                                    <?php if (get_post_meta($post->ID, 'events-list', true)): ?>
 
                                         <table style="padding:10px;">
                                             <tr>
@@ -211,7 +211,7 @@ get_header(); ?>
                                 $myposts = get_posts( $args );
                                 foreach( $myposts as $post ) :	setup_postdata($post); ?>
 
-                                    <?php if (get_post_meta($post->ID, 'month-long', true)): ?>
+                                    <?php if (get_post_meta($post->ID, 'events-list', true)): ?>
 
                                         <table style="padding:10px;">
                                             <tr>
