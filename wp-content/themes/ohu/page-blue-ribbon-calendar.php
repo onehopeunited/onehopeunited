@@ -62,7 +62,10 @@ get_header(); ?>
 
             </table>
 
-            <span><a href="mailto:Goblue@onehopeunited.org">Have Questions? Contact Us </a></span>
+            <div class="download-kit">
+                <span><a href="mailto:Goblue@onehopeunited.org">Have Questions? Contact Us </a></span>
+                <a href="/wp-content/uploads/2014/03/OHU_GoBlue_CampaignKit_2014.pdf"><img src="/wp-content/themes/ohu/images/goblue/download-kit-01.jpg" alt="download GoBlue Campaign Kit"/></a>
+            </div>
 
             <script src="http://widgets.twimg.com/j/2/widget.js"></script>
             <script>

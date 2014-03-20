@@ -97,6 +97,9 @@ new TWTR.Widget({
 
 <span class="redtext">ONE HOPE</span> <span class="bluetext">NEWSFEED</span> > All News
 
+    <div class="download-btn">
+        <a href="/wp-content/uploads/2014/03/OHU_GoBlue_CampaignKit_2014.pdf"><img src="/wp-content/themes/ohu/images/goblue/download-kit-01.jpg" alt="download GoBlue Campaign Kit"/></a>
+    </div>
 
 <div style="border-top:1px solid #ccc;padding-top:10px;margin-top:10px;margin-bottom:10px;">
 <span class="graytext">SORT BY REGION:</span>

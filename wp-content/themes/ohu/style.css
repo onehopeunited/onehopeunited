@@ -3111,6 +3111,11 @@ table.custom{
     margin-left: 26px;
 }
 
+.home-cont {
+    width: 100%;
+    text-align: justify;
+}
+
 /*spread the word styles*/
 .spread-word-img-titles {
     text-align: left;
@@ -3223,10 +3228,27 @@ table.custom{
 }
 /*END All-in-one-event-calendar styles*/
 
-/*GO BACK button left sidebar*/
+/*Buttons left sidebar*/
 .back-btn {
     float: right;
     margin-top: 10px;
+}
+
+.download-kit {
+    text-align: center;
+}
+
+.download-kit img {
+    margin: 10px 0;
+}
+
+.download-btn {
+    float: right;
+    margin-top: -30px;
+}
+
+.right-content .micro-home {
+    margin-top: 0;
 }
 
 /*START month-long-events*/
@@ -3238,6 +3260,4 @@ table.custom{
 .entry-content1 .month-long-events td table {
     margin: 0;
 }
-
-
 /*END month-long-events*/
