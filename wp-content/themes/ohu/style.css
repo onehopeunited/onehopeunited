@@ -3251,13 +3251,13 @@ table.custom{
     margin-top: 0;
 }
 
-/*START month-long-events*/
-.entry-content1 .month-long-events td {
+/*START events-list*/
+.entry-content1 .events-list td {
     padding: 0;
     font-size: 12px;
 }
 
-.entry-content1 .month-long-events td table {
+.entry-content1 .events-list td table {
     margin: 0;
 }
-/*END month-long-events*/
+/*END events-list*/
