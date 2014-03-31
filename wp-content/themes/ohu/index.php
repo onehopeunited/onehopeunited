@@ -21,15 +21,15 @@ get_header(); ?>
 
 <div id="homepage-main-box">
 
-<?php
-$post_id = 29;
-$queried_post = get_post($post_id);
-?>
+    <?php
+        $post_id = 29;
+        $queried_post = get_post($post_id);
+    ?>
 
-<a href="https://donate.onehopeunited.org/sslpage.aspx?pid=298"><img src="<?php echo get_post_meta($queried_post->ID, 'thumbnail', true) ?>" style="float:left;"></a>
-<div style="padding:20px;width:420px;float:right;">
-<?php echo $queried_post->post_content; ?>
-</div>
+    <a href="http://onehopeunited.org/go-blue-4-ohu/">
+        <img src="<?php bloginfo('template_directory'); ?>/images/goblue/GO-BLUE-left-side.png" style="float:left;">
+        <img width="464" src="<?php bloginfo('template_directory'); ?>/images/goblue/2014-OHU-GoBlue-banner-homepage-get-involved.jpg">
+    </a>
 
 </div>
 			
@@ -54,14 +54,14 @@ foreach( $myposts as $post ) :	setup_postdata($post); ?>
 <img src="<?php echo get_post_meta($post->ID, 'thumbnail', true) ?>" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">
 <?php } else { ?>
 <?php
-if ( in_category('everyday-heroes') ) {
-	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/everyday-heroes-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
+if ( in_category('stories') ) {
+    echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/stories-of-hope-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
 } elseif ( in_category('newsletters') ) {
 	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/in-the-news-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
 } elseif ( in_category('press-releases') ) {
 	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/press-release-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
-} elseif ( in_category('stories') ) {
-	echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/stories-of-hope-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
+} elseif ( in_category('everyday-heroes') ) {
+    echo '<img src="http://onehopeunited.org/wp-content/themes/ohu/images/everyday-heroes-default.gif" style="width:123px;height:81px;margin-bottom:0px;padding:5px;border:1px solid #ccc;">';
 }
 ?>
 <?php } ?>
@@ -110,31 +110,17 @@ if ( in_category('everyday-heroes') ) {
 		
 		</div><!-- bottom column -->
 				
-				<div class="bottom-column-end">
+<div class="bottom-column-end">
 	
-	<img src="http://onehopeunited.org/wp-content/themes/ohu/images/ways-to-help.gif" alt="Ways to Help" style="margin-top:-0px;">
-	
-		<BR /><BR />
-		<span class="redtext">FOSTER A CHILD:</span>
-				<br />
-				<a href="http://onehopeunited.org/services/foster-care/" class="graytext" style="font-weight:normal">HELP CHANGE THE LIFE OF A CHILD</a> <a href="http://onehopeunited.org/services/foster-care/"><img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-button.gif" align="absmiddle"></a>
-				<br />
-			
-		
-				
-				
-				<a href="http://onehopeunited.org/blue-ribbon-month/"><img src="http://onehopeunited.org/wp-content/themes/ohu/images/2013_BRM_web_300x250.jpg" style="width:280px;height:233px;margin-bottom:10px;margin-top:10px;"></a>
-				
-				<span class="redtext">BY LOCATION:</SPAN><br />
-<a href="http://onehopeunited.org/get-involved/get-involved-in-northern/" class="graytext" style="font-weight:normal">NORTHERN ILLINOIS / WISCONSIN</a> <a href="http://onehopeunited.org/get-involved/get-involved-in-northern/"><img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-button.gif" align="absmiddle"></a>
-<br />
-<a href="http://onehopeunited.org/get-involved/get-involved-in-hudelson/" class="graytext" style="font-weight:normal">CENTRAL & SOUTHERN ILLINOIS / MISSOURI</a> <a href="http://onehopeunited.org/get-involved/get-involved-in-hudelson/"><img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-button.gif" align="absmiddle"></a>
-<br />
-<a href="http://onehopeunited.org/get-involved/get-involved-in-florida/" class="graytext" style="font-weight:normal">FLORIDA REGION</a> <a href="http://onehopeunited.org/get-involved/get-involved-in-florida/"><img src="http://onehopeunited.org/wp-content/themes/ohu/images/red-button.gif" align="absmiddle"></a>
-				
-				
-		
-		
+	<img src="<?php bloginfo('template_directory'); ?>/images/goblue/our-events.gif" alt="Our events" style="margin-top:-0px;">
+    <br />
+    <br />
+    <br />
+    <br />
+    <a href="http://onehopeunited.org/calendar/">
+        <img src="<?php bloginfo('template_directory'); ?>/images/goblue/calendar-of-events-homepage.jpg" alt="Calendar of events" style="width:280px;margin-bottom:10px;margin-top:10px;">
+    </a>
+
 </div><!-- bottom container -->
 
 
