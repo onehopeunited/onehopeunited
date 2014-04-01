@@ -115,11 +115,18 @@ if ( in_category('stories') ) {
 	<img src="<?php bloginfo('template_directory'); ?>/images/goblue/our-events.gif" alt="Our events" style="margin-top:-0px;">
     <br />
     <br />
-    <br />
-    <br />
+
     <a href="http://onehopeunited.org/calendar/">
         <img src="<?php bloginfo('template_directory'); ?>/images/goblue/calendar-of-events-homepage.jpg" alt="Calendar of events" style="width:280px;margin-bottom:10px;margin-top:10px;">
     </a>
+    <br />
+    <div style="text-align:center;">
+        <span class="redtext">Click the button below to create your own event!</span><br />
+        <br />
+        <a href="http://onehopeunited.org/wp-content/uploads/2014/03/OHU_GoBlue_CampaignKit_2014.pdf">
+            <img src="<?php bloginfo('template_directory'); ?>/images/goblue/download-kit-01.jpg" alt="Campaign Kit">
+        </a>
+    </div>
 
 </div><!-- bottom container -->
 
