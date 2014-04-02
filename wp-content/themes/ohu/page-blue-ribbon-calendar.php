@@ -144,7 +144,7 @@ get_header(); ?>
                             <td style="border-right:1px solid #ccc;vertical-align:top;">
                                 <?php
                                 global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 7 );
+                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 39 );
                                 $myposts = get_posts( $args );
                                 foreach( $myposts as $post ) :	setup_postdata($post); ?>
 
@@ -177,7 +177,7 @@ get_header(); ?>
                             <td style="border-right:1px solid #ccc;vertical-align:top;">
                                 <?php
                                 global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 6 );
+                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 40 );
                                 $myposts = get_posts( $args );
                                 foreach( $myposts as $post ) :	setup_postdata($post); ?>
 
@@ -210,7 +210,7 @@ get_header(); ?>
 
                                 <?php
                                 global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 8 );
+                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 41 );
                                 $myposts = get_posts( $args );
                                 foreach( $myposts as $post ) :	setup_postdata($post); ?>
 
@@ -273,7 +273,7 @@ get_header(); ?>
                             <td style="border-right:1px solid #ccc;vertical-align:top;">
                                 <?php
                                 global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 7 );
+                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 42 );
                                 $myposts = get_posts( $args );
                                 foreach( $myposts as $post ) :	setup_postdata($post); ?>
 
@@ -306,7 +306,7 @@ get_header(); ?>
                             <td style="border-right:1px solid #ccc;vertical-align:top;">
                                 <?php
                                 global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 6 );
+                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 43 );
                                 $myposts = get_posts( $args );
                                 foreach( $myposts as $post ) :	setup_postdata($post); ?>
 
@@ -339,7 +339,7 @@ get_header(); ?>
 
                                 <?php
                                 global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 8 );
+                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 44 );
                                 $myposts = get_posts( $args );
                                 foreach( $myposts as $post ) :	setup_postdata($post); ?>
 
