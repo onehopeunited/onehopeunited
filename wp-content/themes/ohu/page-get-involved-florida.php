@@ -25,7 +25,17 @@ Template Name: Get Involved Page: Florida
 <br />
 <a href="http://onehopeunited.org/get-involved/donor-bill-of-rights/" target="blank" style="color:gray;font-weight:normal;">DONOR BILL OF RIGHTS</a>
 <br />
-<a href="http://onehopeunited.org/blue-ribbon-month/"><img src="http://onehopeunited.org/wp-content/themes/ohu/images/2013_BRM_web_300x250.jpg" style="width:220px;height:184px;margin-top:15px;"></a>
+<a href="http://onehopeunited.org/calendar/">
+    <img src="<?php bloginfo('template_directory'); ?>/images/goblue/calendar-of-events-homepage.jpg" alt="Calendar of events" style="width:220px;margin-top:15px;" />
+</a>
+<br />
+<div style="text-align:center;">
+    <span class="redtext">Click the button below to create your own event!</span><br />
+    <br />
+    <a href="http://onehopeunited.org/wp-content/uploads/2014/03/OHU_GoBlue_CampaignKit_2014.pdf">
+        <img src="<?php bloginfo('template_directory'); ?>/images/goblue/download-kit-01.jpg" alt="Campaign Kit">
+    </a>
+</div>
 
 <br /><br />
 <b>GUIDESTAR</b>
