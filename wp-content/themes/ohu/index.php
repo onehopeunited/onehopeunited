@@ -22,14 +22,14 @@ get_header(); ?>
 <div id="homepage-main-box">
 
     <?php
-        $post_id = 29;
-        $queried_post = get_post($post_id);
+    $post_id = 29;
+    $queried_post = get_post($post_id);
     ?>
 
-    <a href="http://onehopeunited.org/go-blue-4-ohu/">
-        <img src="<?php bloginfo('template_directory'); ?>/images/goblue/GO-BLUE-left-side.png" style="float:left;">
-        <img width="464" src="<?php bloginfo('template_directory'); ?>/images/goblue/2014-OHU-GoBlue-banner-homepage-get-involved.jpg">
-    </a>
+    <a href="https://donate.onehopeunited.org/sslpage.aspx?pid=298"><img src="<?php bloginfo('template_directory'); ?>/images/goblue/GO-BLUE-left-side.png" style="float:left;" /></a>
+    <div style="padding:20px;width:420px;float:right;">
+        <?php echo $queried_post->post_content; ?>
+    </div>
 
 </div>
 			
