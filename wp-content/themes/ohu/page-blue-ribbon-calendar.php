@@ -116,237 +116,237 @@ get_header(); ?>
                 <!--content goes here blue-ribbon-month calendar page-->
 
                 <!--START events-list COMMUNITY PARNTER EVENTS-->
-                <div class="events-list">
-                    <br />
-                    <div  style="text-align:center;">
-                        <span style="font-size:1.3em;color:#2f571a;font-weight:bold;">Community Partner Events</span>
-                    </div>
-                    <br />
-                    <hr>
-                    <table style="table-layout:fixed;margin-bottom:30px;margin-top:-25px;width:620px">
-
-                        <colgroup>
-                            <col style="width: 206px">
-                            <col style="width: 206px">
-                            <col style="width: 206px">
-                        </colgroup>
-
-                        <tr>
-                            <td style="height:40px;border-right:1px solid #ccc;padding-top:10px;text-align:center;"><span style="color:#d03b3e;font-size:15px;font-weight:bold;">Northern Illinois/Wisconsin Events</span></td>
-
-                            <td style="height:40px;border-right:1px solid #ccc;padding-top:10px;text-align:center;"><span style="color:#e6a813;font-size:15px;font-weight:bold;">Central & Southern Illinois/Missouri Events</span></td>
-
-                            <td style="height:40px;padding-top:10px;text-align:center;"><span style="color:#3993c4;font-size:15px;font-weight:bold;">Florida Events</span></td>
-
-                        </tr>
-
-                        <tr>
-                            <td style="border-right:1px solid #ccc;vertical-align:top;">
-                                <?php
-                                global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 39 );
-                                $myposts = get_posts( $args );
-                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
-
-                                    <table style="padding:10px;" class="<?php echo get_post_meta($post->ID, 'highlight', true) ?>">
-                                        <tr>
-                                            <td style="padding-right:5px;">
-                                                <div class="homepage-calendar-stub-<?php echo get_post_meta($post->ID, 'region', true) ?>">
-                                                    <div class="calendar-stub-top"><center><?php echo get_post_meta($post->ID, 'month', true) ?></center></div>
-                                                    <center><?php echo get_post_meta($post->ID, 'day', true) ?></center>
-                                                </div>
-
-
-                                            </td>
-                                            <td>
-                                                <b><?php the_title(); ?></b><br />
-
-                                                <?php echo get_post_meta($post->ID, 'additional-info', true) ?><br />
-                                                <span style="font-size:0.8em;"><a href="<?php the_permalink(); ?>">MORE DETAILS ></a></span>
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                <?php endforeach; ?>
-                            </td>
-
-                            <td style="border-right:1px solid #ccc;vertical-align:top;">
-                                <?php
-                                global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 40 );
-                                $myposts = get_posts( $args );
-                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
-
-                                    <table style="padding:10px;">
-                                        <tr>
-                                            <td style="padding-right:5px;">
-                                                <div class="homepage-calendar-stub-<?php echo get_post_meta($post->ID, 'region', true) ?>">
-                                                    <div class="calendar-stub-top"><center><?php echo get_post_meta($post->ID, 'month', true) ?></center></div>
-                                                    <center><?php echo get_post_meta($post->ID, 'day', true) ?></center>
-                                                </div>
-                                            </td>
-                                            <td>
-
-                                                <b><?php the_title(); ?></b><br />
-
-                                                <?php echo get_post_meta($post->ID, 'additional-info', true) ?><br />
-                                                <span style="font-size:0.8em;"><a href="<?php the_permalink(); ?>">MORE DETAILS ></a></span>
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                <?php endforeach; ?>
-                            </td>
-
-                            <td style="vertical-align:top;">
-
-                                <?php
-                                global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 41 );
-                                $myposts = get_posts( $args );
-                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
-
-                                    <table style="padding:10px;">
-                                        <tr>
-                                            <td style="padding-right:5px;">
-                                                <div class="homepage-calendar-stub-<?php echo get_post_meta($post->ID, 'region', true) ?>">
-                                                    <div class="calendar-stub-top"><center><?php echo get_post_meta($post->ID, 'month', true) ?></center></div>
-                                                    <center><?php echo get_post_meta($post->ID, 'day', true) ?></center>
-                                                </div>
-
-
-                                            </td>
-                                            <td>
-                                                <b><?php the_title(); ?></b><br />
-
-                                                <?php echo get_post_meta($post->ID, 'additional-info', true) ?><br />
-                                                <span style="font-size:0.8em;"><a href="<?php the_permalink(); ?>">MORE DETAILS ></a></span>
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                <?php endforeach; ?>
-
-                            </td></tr></table>
-
-                </div>
+<!--                <div class="events-list">-->
+<!--                    <br />-->
+<!--                    <div  style="text-align:center;">-->
+<!--                        <span style="font-size:1.3em;color:#2f571a;font-weight:bold;">Community Partner Events</span>-->
+<!--                    </div>-->
+<!--                    <br />-->
+<!--                    <hr>-->
+<!--                    <table style="table-layout:fixed;margin-bottom:30px;margin-top:-25px;width:620px">-->
+<!---->
+<!--                        <colgroup>-->
+<!--                            <col style="width: 206px">-->
+<!--                            <col style="width: 206px">-->
+<!--                            <col style="width: 206px">-->
+<!--                        </colgroup>-->
+<!---->
+<!--                        <tr>-->
+<!--                            <td style="height:40px;border-right:1px solid #ccc;padding-top:10px;text-align:center;"><span style="color:#d03b3e;font-size:15px;font-weight:bold;">Northern Illinois/Wisconsin Events</span></td>-->
+<!---->
+<!--                            <td style="height:40px;border-right:1px solid #ccc;padding-top:10px;text-align:center;"><span style="color:#e6a813;font-size:15px;font-weight:bold;">Central & Southern Illinois/Missouri Events</span></td>-->
+<!---->
+<!--                            <td style="height:40px;padding-top:10px;text-align:center;"><span style="color:#3993c4;font-size:15px;font-weight:bold;">Florida Events</span></td>-->
+<!---->
+<!--                        </tr>-->
+<!---->
+<!--                        <tr>-->
+<!--                            <td style="border-right:1px solid #ccc;vertical-align:top;">-->
+<!--                                --><?php
+//                                global $post;
+//                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 39 );
+//                                $myposts = get_posts( $args );
+//                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
+<!---->
+<!--                                    <table style="padding:10px;" class="--><?php //echo get_post_meta($post->ID, 'highlight', true) ?><!--">-->
+<!--                                        <tr>-->
+<!--                                            <td style="padding-right:5px;">-->
+<!--                                                <div class="homepage-calendar-stub---><?php //echo get_post_meta($post->ID, 'region', true) ?><!--">-->
+<!--                                                    <div class="calendar-stub-top"><center>--><?php //echo get_post_meta($post->ID, 'month', true) ?><!--</center></div>-->
+<!--                                                    <center>--><?php //echo get_post_meta($post->ID, 'day', true) ?><!--</center>-->
+<!--                                                </div>-->
+<!---->
+<!---->
+<!--                                            </td>-->
+<!--                                            <td>-->
+<!--                                                <b>--><?php //the_title(); ?><!--</b><br />-->
+<!---->
+<!--                                                --><?php //echo get_post_meta($post->ID, 'additional-info', true) ?><!--<br />-->
+<!--                                                <span style="font-size:0.8em;"><a href="--><?php //the_permalink(); ?><!--">MORE DETAILS ></a></span>-->
+<!--                                            </td>-->
+<!--                                        </tr>-->
+<!--                                    </table>-->
+<!---->
+<!--                                --><?php //endforeach; ?>
+<!--                            </td>-->
+<!---->
+<!--                            <td style="border-right:1px solid #ccc;vertical-align:top;">-->
+<!--                                --><?php
+//                                global $post;
+//                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 40 );
+//                                $myposts = get_posts( $args );
+//                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
+<!---->
+<!--                                    <table style="padding:10px;">-->
+<!--                                        <tr>-->
+<!--                                            <td style="padding-right:5px;">-->
+<!--                                                <div class="homepage-calendar-stub---><?php //echo get_post_meta($post->ID, 'region', true) ?><!--">-->
+<!--                                                    <div class="calendar-stub-top"><center>--><?php //echo get_post_meta($post->ID, 'month', true) ?><!--</center></div>-->
+<!--                                                    <center>--><?php //echo get_post_meta($post->ID, 'day', true) ?><!--</center>-->
+<!--                                                </div>-->
+<!--                                            </td>-->
+<!--                                            <td>-->
+<!---->
+<!--                                                <b>--><?php //the_title(); ?><!--</b><br />-->
+<!---->
+<!--                                                --><?php //echo get_post_meta($post->ID, 'additional-info', true) ?><!--<br />-->
+<!--                                                <span style="font-size:0.8em;"><a href="--><?php //the_permalink(); ?><!--">MORE DETAILS ></a></span>-->
+<!--                                            </td>-->
+<!--                                        </tr>-->
+<!--                                    </table>-->
+<!---->
+<!--                                --><?php //endforeach; ?>
+<!--                            </td>-->
+<!---->
+<!--                            <td style="vertical-align:top;">-->
+<!---->
+<!--                                --><?php
+//                                global $post;
+//                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 41 );
+//                                $myposts = get_posts( $args );
+//                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
+<!---->
+<!--                                    <table style="padding:10px;">-->
+<!--                                        <tr>-->
+<!--                                            <td style="padding-right:5px;">-->
+<!--                                                <div class="homepage-calendar-stub---><?php //echo get_post_meta($post->ID, 'region', true) ?><!--">-->
+<!--                                                    <div class="calendar-stub-top"><center>--><?php //echo get_post_meta($post->ID, 'month', true) ?><!--</center></div>-->
+<!--                                                    <center>--><?php //echo get_post_meta($post->ID, 'day', true) ?><!--</center>-->
+<!--                                                </div>-->
+<!---->
+<!---->
+<!--                                            </td>-->
+<!--                                            <td>-->
+<!--                                                <b>--><?php //the_title(); ?><!--</b><br />-->
+<!---->
+<!--                                                --><?php //echo get_post_meta($post->ID, 'additional-info', true) ?><!--<br />-->
+<!--                                                <span style="font-size:0.8em;"><a href="--><?php //the_permalink(); ?><!--">MORE DETAILS ></a></span>-->
+<!--                                            </td>-->
+<!--                                        </tr>-->
+<!--                                    </table>-->
+<!---->
+<!--                                --><?php //endforeach; ?>
+<!---->
+<!--                            </td></tr></table>-->
+<!---->
+<!--                </div>-->
                 <!--END events-list COMMUNITY PARNTER EVENTS-->
 
                 <!--START events-list PROMOTIONS-->
-                <div class="events-list">
-                    <br />
-                    <div  style="text-align:center;">
-                        <span style="font-size:1.3em;color:#2f571a;font-weight:bold;">Promotions</span>
-                    </div>
-                    <br />
-                    <hr>
-                    <table style="table-layout:fixed;margin-bottom:30px;margin-top:-25px;width:620px">
-
-                        <colgroup>
-                            <col style="width: 206px">
-                            <col style="width: 206px">
-                            <col style="width: 206px">
-                        </colgroup>
-
-                        <tr>
-                            <td style="height:40px;border-right:1px solid #ccc;padding-top:10px;text-align:center;"><span style="color:#d03b3e;font-size:15px;font-weight:bold;">Northern Illinois/Wisconsin Events</span></td>
-
-                            <td style="height:40px;border-right:1px solid #ccc;padding-top:10px;text-align:center;"><span style="color:#e6a813;font-size:15px;font-weight:bold;">Central & Southern Illinois/Missouri Events</span></td>
-
-                            <td style="height:40px;padding-top:10px;text-align:center;"><span style="color:#3993c4;font-size:15px;font-weight:bold;">Florida Events</span></td>
-
-                        </tr>
-
-                        <tr>
-                            <td style="border-right:1px solid #ccc;vertical-align:top;">
-                                <?php
-                                global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 42 );
-                                $myposts = get_posts( $args );
-                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
-
-                                    <table style="padding:10px;" class="<?php echo get_post_meta($post->ID, 'highlight', true) ?>">
-                                        <tr>
-                                            <td style="padding-right:5px;">
-                                                <div class="homepage-calendar-stub-<?php echo get_post_meta($post->ID, 'region', true) ?>">
-                                                    <div class="calendar-stub-top"><center><?php echo get_post_meta($post->ID, 'month', true) ?></center></div>
-                                                    <center><?php echo get_post_meta($post->ID, 'day', true) ?></center>
-                                                </div>
-
-
-                                            </td>
-                                            <td>
-                                                <b><?php the_title(); ?></b><br />
-
-                                                <?php echo get_post_meta($post->ID, 'additional-info', true) ?><br />
-                                                <span style="font-size:0.8em;"><a href="<?php the_permalink(); ?>">MORE DETAILS ></a></span>
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                <?php endforeach; ?>
-                            </td>
-
-                            <td style="border-right:1px solid #ccc;vertical-align:top;">
-                                <?php
-                                global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 43 );
-                                $myposts = get_posts( $args );
-                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
-
-                                    <table style="padding:10px;">
-                                        <tr>
-                                            <td style="padding-right:5px;">
-                                                <div class="homepage-calendar-stub-<?php echo get_post_meta($post->ID, 'region', true) ?>">
-                                                    <div class="calendar-stub-top"><center><?php echo get_post_meta($post->ID, 'month', true) ?></center></div>
-                                                    <center><?php echo get_post_meta($post->ID, 'day', true) ?></center>
-                                                </div>
-                                            </td>
-                                            <td>
-
-                                                <b><?php the_title(); ?></b><br />
-
-                                                <?php echo get_post_meta($post->ID, 'additional-info', true) ?><br />
-                                                <span style="font-size:0.8em;"><a href="<?php the_permalink(); ?>">MORE DETAILS ></a></span>
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                <?php endforeach; ?>
-                            </td>
-
-                            <td style="vertical-align:top;">
-
-                                <?php
-                                global $post;
-                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 44 );
-                                $myposts = get_posts( $args );
-                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
-
-                                    <table style="padding:10px;">
-                                        <tr>
-                                            <td style="padding-right:5px;">
-                                                <div class="homepage-calendar-stub-<?php echo get_post_meta($post->ID, 'region', true) ?>">
-                                                    <div class="calendar-stub-top"><center><?php echo get_post_meta($post->ID, 'month', true) ?></center></div>
-                                                    <center><?php echo get_post_meta($post->ID, 'day', true) ?></center>
-                                                </div>
-
-
-                                            </td>
-                                            <td>
-                                                <b><?php the_title(); ?></b><br />
-
-                                                <?php echo get_post_meta($post->ID, 'additional-info', true) ?><br />
-                                                <span style="font-size:0.8em;"><a href="<?php the_permalink(); ?>">MORE DETAILS ></a></span>
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                <?php endforeach; ?>
-
-                            </td></tr></table>
-
-                </div>
+<!--                <div class="events-list">-->
+<!--                    <br />-->
+<!--                    <div  style="text-align:center;">-->
+<!--                        <span style="font-size:1.3em;color:#2f571a;font-weight:bold;">Promotions</span>-->
+<!--                    </div>-->
+<!--                    <br />-->
+<!--                    <hr>-->
+<!--                    <table style="table-layout:fixed;margin-bottom:30px;margin-top:-25px;width:620px">-->
+<!---->
+<!--                        <colgroup>-->
+<!--                            <col style="width: 206px">-->
+<!--                            <col style="width: 206px">-->
+<!--                            <col style="width: 206px">-->
+<!--                        </colgroup>-->
+<!---->
+<!--                        <tr>-->
+<!--                            <td style="height:40px;border-right:1px solid #ccc;padding-top:10px;text-align:center;"><span style="color:#d03b3e;font-size:15px;font-weight:bold;">Northern Illinois/Wisconsin Events</span></td>-->
+<!---->
+<!--                            <td style="height:40px;border-right:1px solid #ccc;padding-top:10px;text-align:center;"><span style="color:#e6a813;font-size:15px;font-weight:bold;">Central & Southern Illinois/Missouri Events</span></td>-->
+<!---->
+<!--                            <td style="height:40px;padding-top:10px;text-align:center;"><span style="color:#3993c4;font-size:15px;font-weight:bold;">Florida Events</span></td>-->
+<!---->
+<!--                        </tr>-->
+<!---->
+<!--                        <tr>-->
+<!--                            <td style="border-right:1px solid #ccc;vertical-align:top;">-->
+<!--                                --><?php
+//                                global $post;
+//                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 42 );
+//                                $myposts = get_posts( $args );
+//                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
+<!---->
+<!--                                    <table style="padding:10px;" class="--><?php //echo get_post_meta($post->ID, 'highlight', true) ?><!--">-->
+<!--                                        <tr>-->
+<!--                                            <td style="padding-right:5px;">-->
+<!--                                                <div class="homepage-calendar-stub---><?php //echo get_post_meta($post->ID, 'region', true) ?><!--">-->
+<!--                                                    <div class="calendar-stub-top"><center>--><?php //echo get_post_meta($post->ID, 'month', true) ?><!--</center></div>-->
+<!--                                                    <center>--><?php //echo get_post_meta($post->ID, 'day', true) ?><!--</center>-->
+<!--                                                </div>-->
+<!---->
+<!---->
+<!--                                            </td>-->
+<!--                                            <td>-->
+<!--                                                <b>--><?php //the_title(); ?><!--</b><br />-->
+<!---->
+<!--                                                --><?php //echo get_post_meta($post->ID, 'additional-info', true) ?><!--<br />-->
+<!--                                                <span style="font-size:0.8em;"><a href="--><?php //the_permalink(); ?><!--">MORE DETAILS ></a></span>-->
+<!--                                            </td>-->
+<!--                                        </tr>-->
+<!--                                    </table>-->
+<!---->
+<!--                                --><?php //endforeach; ?>
+<!--                            </td>-->
+<!---->
+<!--                            <td style="border-right:1px solid #ccc;vertical-align:top;">-->
+<!--                                --><?php
+//                                global $post;
+//                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 43 );
+//                                $myposts = get_posts( $args );
+//                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
+<!---->
+<!--                                    <table style="padding:10px;">-->
+<!--                                        <tr>-->
+<!--                                            <td style="padding-right:5px;">-->
+<!--                                                <div class="homepage-calendar-stub---><?php //echo get_post_meta($post->ID, 'region', true) ?><!--">-->
+<!--                                                    <div class="calendar-stub-top"><center>--><?php //echo get_post_meta($post->ID, 'month', true) ?><!--</center></div>-->
+<!--                                                    <center>--><?php //echo get_post_meta($post->ID, 'day', true) ?><!--</center>-->
+<!--                                                </div>-->
+<!--                                            </td>-->
+<!--                                            <td>-->
+<!---->
+<!--                                                <b>--><?php //the_title(); ?><!--</b><br />-->
+<!---->
+<!--                                                --><?php //echo get_post_meta($post->ID, 'additional-info', true) ?><!--<br />-->
+<!--                                                <span style="font-size:0.8em;"><a href="--><?php //the_permalink(); ?><!--">MORE DETAILS ></a></span>-->
+<!--                                            </td>-->
+<!--                                        </tr>-->
+<!--                                    </table>-->
+<!---->
+<!--                                --><?php //endforeach; ?>
+<!--                            </td>-->
+<!---->
+<!--                            <td style="vertical-align:top;">-->
+<!---->
+<!--                                --><?php
+//                                global $post;
+//                                $args = array( 'numberposts' => 30, 'offset'=> 0, 'category' => 44 );
+//                                $myposts = get_posts( $args );
+//                                foreach( $myposts as $post ) :	setup_postdata($post); ?>
+<!---->
+<!--                                    <table style="padding:10px;">-->
+<!--                                        <tr>-->
+<!--                                            <td style="padding-right:5px;">-->
+<!--                                                <div class="homepage-calendar-stub---><?php //echo get_post_meta($post->ID, 'region', true) ?><!--">-->
+<!--                                                    <div class="calendar-stub-top"><center>--><?php //echo get_post_meta($post->ID, 'month', true) ?><!--</center></div>-->
+<!--                                                    <center>--><?php //echo get_post_meta($post->ID, 'day', true) ?><!--</center>-->
+<!--                                                </div>-->
+<!---->
+<!---->
+<!--                                            </td>-->
+<!--                                            <td>-->
+<!--                                                <b>--><?php //the_title(); ?><!--</b><br />-->
+<!---->
+<!--                                                --><?php //echo get_post_meta($post->ID, 'additional-info', true) ?><!--<br />-->
+<!--                                                <span style="font-size:0.8em;"><a href="--><?php //the_permalink(); ?><!--">MORE DETAILS ></a></span>-->
+<!--                                            </td>-->
+<!--                                        </tr>-->
+<!--                                    </table>-->
+<!---->
+<!--                                --><?php //endforeach; ?>
+<!---->
+<!--                            </td></tr></table>-->
+<!---->
+<!--                </div>-->
                 <!--END events-list PROMOTIONS-->
 
 			</div><!-- #content -->
