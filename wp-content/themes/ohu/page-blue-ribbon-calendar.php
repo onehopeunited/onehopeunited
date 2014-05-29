@@ -8,8 +8,8 @@ get_header(); ?>
 <div id="primary1">
     <div id="content1" role="main">
 
-        <div style="float:left;width:300px;/*width:270px;padding-right:30px;*/border-right:1px solid #ccc;margin-top:50px;margin-bottom:30px;height:100%;">
-            <div style="border-top:1px solid #ccc;/*margin-right:-30px;*/margin-bottom:15px;">
+        <div style="float:left;width:290px;padding-right:10px;/*width:270px;padding-right:30px;*/border-right:1px solid #ccc;margin-top:50px;margin-bottom:30px;height:100%;">
+            <div style="border-top:1px solid #ccc;margin-right:-10px;/*margin-right:-30px;*/margin-bottom:15px;">
                 <img src="http://onehopeunited.org/wp-content/themes/ohu/images/get-involved.gif">
                 <a href="/blue-ribbon-month/"><img class="back-btn" src="/wp-content/themes/ohu/images/goblue/back-button.png" alt="go back"></a>
             </div>
@@ -69,7 +69,7 @@ get_header(); ?>
 
             <div>
                 <br />
-                <a class="twitter-timeline" width="300" height="450"  href="https://twitter.com/1hopeunited"  data-widget-id="472036111640821760">Tweets by @1hopeunited</a>
+                <a class="twitter-timeline" width="290" height="450"  href="https://twitter.com/1hopeunited"  data-widget-id="472036111640821760">Tweets by @1hopeunited</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
 
