@@ -26,12 +26,9 @@ $more = 0; ?>
 
 <div style="border-top:1px solid #ccc;padding-top:10px;margin-top:10px;">
 <b>MEDIA CONTACT:</b><br />
-Fotena Zirps, Executive Vice President<br />
-<a href="mailto:FZirps@onehopeunited.org">FZirps@onehopeunited.org</a><br />
-850.212.6415</br></br>
-Cassie Monroe, Communications<br />
-<a href="mailto:CMonroe@onehopeunited.org">CMonroe@onehopeunited.org</a><br />
-312.949.5651
+Em Hall, Marketing Director<br />
+<a href="mailto:emhall@onehopeunited.org">emhall@onehopeunited.org</a><br />
+773.322.7296
 </div>
 
 <div style="border-top:1px solid #ccc;padding-top:10px;margin-top:10px;">
