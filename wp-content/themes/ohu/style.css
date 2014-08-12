@@ -3261,3 +3261,6 @@ table.custom{
     margin: 0;
 }
 /*END events-list*/
+/*some quick fixes by okononenko*/
+.job-table td {line-height: 1.2em;}
+/*some quick fixes by okononenko*/
